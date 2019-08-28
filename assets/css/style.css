@@ -1,0 +1,94 @@
+ .wallpaper {
+     margin-top: 0;
+     padding: 50px;
+     background: url(../../Megalo.jpg);
+     background-size: cover;
+ }
+ 
+ .box {
+     width: 450px;
+     padding: 50px;
+     text-align: center;
+     margin: auto;
+     margin-top: 9%;
+     color: black;
+     border-style: none;
+     font-family: 'Century Gothic', sans-serif;
+ }
+ 
+ .container {
+     width: 2000px;
+     margin: 0 auto;
+     background: white;
+     font-size: 24px;
+     padding: 25px;
+ }
+ 
+ .parallax {
+     min-height: 400px;
+     width: 1300;
+     background: transparent;
+ }
+ 
+ #about {
+     text-align: center;
+     z-index: 99;
+     color: #ffffff;
+     font-size: 10vw;
+ }
+ 
+ #project1 {
+     text-align: center;
+     z-index: 2;
+     color: #ffffff;
+     font-size: 10vw;
+ }
+ 
+ .navbar-gold {
+     background: yellow;
+     color: yellow !important;
+ }
+ 
+ .box-img {
+     border-radius: 50%;
+     width: 150px;
+     height: 150px;
+ }
+ 
+ .box h1 {
+     font-size: 40px;
+     letter-spacing: 4px;
+     font-weight: 100;
+ }
+ 
+ .box h5 {
+     font-size: 20px;
+     letter-spacing: 3px;
+     font-weight: 100;
+ }
+ 
+ .box p {
+     text-align: justify;
+ }
+ 
+ ul {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .box li {
+     display: inline-block;
+     margin: 6px;
+     list-style: none;
+ }
+ 
+ .box li a {
+     color: white;
+     text-decoration: none;
+     font-size: 60px;
+     transition: all ease-in-out 250ms;
+ }
+ 
+ .box li a:hover {
+     color: #b9b9b9;
+ }
