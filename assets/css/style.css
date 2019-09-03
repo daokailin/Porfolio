@@ -54,7 +54,25 @@
  .test {
      z-index: 99;
      text-align: center;
-     color: brown;
+     margin: auto;
+     color: rgb(255, 255, 255);
+     font-size: 400%;
+ }
+ 
+ .test1 {
+     z-index: 99;
+     text-align: center;
+     margin: auto;
+     color: rgb(255, 255, 255);
+     font-size: 400%;
+ }
+ 
+ .test2 {
+     z-index: 99;
+     text-align: center;
+     margin: auto;
+     color: rgb(255, 255, 255);
+     font-size: 400%;
  }
  
  .box-img {
