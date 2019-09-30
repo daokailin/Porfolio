@@ -18,11 +18,11 @@
  
  .container {
      width: 2000px;
-     margin: 0 auto;
+     margin: 0 30px;
      background: white;
      font-size: 24px;
      padding: 25px;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
  
  .container1 {
@@ -33,8 +33,8 @@
  }
  
  .parallax {
-     min-height: 400px;
-     width: 1300;
+     min-height: 250px;
+     width: 1000;
      background: transparent;
  }
  
@@ -45,7 +45,7 @@
      font-size: 10vw;
  }
  
- #project1 {
+ 1 {
      text-align: center;
      z-index: 2;
      color: #ffffff;
@@ -124,4 +124,87 @@
  
  .box li a:hover {
      color: #b9b9b9;
+ }
+ 
+ .onhover {
+     width: 1280px;
+     margin: 70px auto 0;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+ 
+ .onhover .work {
+     position: relative;
+     background: #ff0;
+     width: 300px;
+     height: 300px;
+     margin: 50px;
+     box-sizing: border-box;
+     display: inline-block;
+ }
+ 
+ .onhover .work .imgBox {
+     position: relative;
+     overflow: hidden;
+ }
+ 
+ .onhover .work .imgBox .img {
+     transition: transform 2s;
+ }
+ 
+ .onhover .work:hover .imgBox img {
+     transform: scale(1.2);
+ }
+ 
+ .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .outerContainer {
+     letter-spacing: 0.04rem;
+     line-height: 1.2;
+     letter-spacing: 0.02rem;
+     -webkit-font-smoothing: antialiased;
+     margin: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+     padding: 0 3.6rem 0 3.6rem !important;
+     box-sizing: border-box;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 14.4rem;
+     max-width: 2000px;
+ }
+ 
+ .innerContainer {
+     letter-spacing: 0.02rem;
+     -webkit-font-smoothing: antialiased;
+     margin: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+     padding: 0 7.2rem 0 7.2rem;
+ }
+ 
+ .innerContainer h1 {
+     -webkit-font-smoothing: antialiased;
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font: inherit;
+     vertical-align: baseline;
+     font-family: "Neue Plak Extended", Arial, sans-serif;
+     font-weight: bold;
+     letter-spacing: 0.04rem;
+     line-height: 1.2;
+     font-size: 5.6rem;
  }
