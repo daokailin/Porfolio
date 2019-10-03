@@ -45,13 +45,6 @@
      font-size: 10vw;
  }
  
- 1 {
-     text-align: center;
-     z-index: 2;
-     color: #ffffff;
-     font-size: 10vw;
- }
- 
  .test {
      z-index: 99;
      text-align: center;
@@ -144,6 +137,19 @@
      display: inline-block;
  }
  
+ .container .works #imgs {
+     object-fit: contain;
+     transition: transform 2s;
+     transform: scale(1);
+     position: relative;
+     float: left;
+     max-width: 300px;
+     max-height: 300px;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
  .onhover .work .imgBox {
      position: relative;
      overflow: hidden;
@@ -151,10 +157,30 @@
  
  .onhover .work .imgBox .img {
      transition: transform 2s;
+     position: relative;
+     float: left;
+     width: 100px;
+     height: 100px;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
  }
  
  .onhover .work:hover .imgBox img {
      transform: scale(1.2);
+ }
+ 
+ .members a img {
+     object-fit: contain;
+     transition: transform 2s;
+     transform: scale(1);
+     position: relative;
+     float: left;
+     max-width: 300px;
+     max-height: 300px;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
  }
  
  .center {
