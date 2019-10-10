@@ -9,6 +9,21 @@
     <link rel="stylesheet" type="text/css" href="assets/css/blogStyle.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/ReadingProgressBar.css" />
     <link rel="icon" type="image/png" sizes="16x16" href="images/logo_bw.png">
+    <link rel="stylesheet" href="assets/css/myyzlq.css">
+    <link rel="stylesheet" href="assets/css/buttonStyle.css">
+
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Daokai Lin-Porfolio</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--parallax effect script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.min.js"></script>
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -45,24 +60,43 @@
 <body oncontextmenu="return false" class="noselect">
     <!-- <body> -->
     <header>
-        <nav class="hamburger-menu">
-            <a>
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-            </a>
-        </nav>
-        <nav class="menu-nav-hz">
-            <ul class="menu-hz">
-                <li class="menu-hz-li current">Portfolio</li>
-                <li class="menu-hz-li">Résumé</li>
-                <li class="menu-hz-li">About</li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/DL.png" style="width:40px;">
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/files/Resume.pdf">RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#con">CONTACT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    PROJECTS
+                                </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#Work1">Crania Official Website</a>
+                            <a class="dropdown-item" href="#Work2">ReVital App</a>
+                            <a class="dropdown-item" href="assets/files/auditing.pptx">O&A Web Auditing</a>
+                            <a class="dropdown-item" href="https://medium.com/me/stories/public">Design Process</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
     </header>
-
-
-
+    </nav>
     <div class="container">
         <div class="row">
             <article class="col-md-8">
@@ -77,7 +111,7 @@
     <div class="container">
         <div class="row">
             <article class="col-md-12 image-margin-refine-top">
-                <img src="assets/images/ppt.png" alt="new design of navigation">
+                <img src="assets/images/ppt.png" alt="new design of navigation" width=800>
             </article>
         </div>
     </div>
@@ -101,9 +135,11 @@
         <div class="row">
             <article class="col-md-8">
                 <img src="assets/images/storyBoard 1.jpeg" alt="Image from Gyazo" width="1280" />
-                <h5 style="text-align: center">Caring Carly is a busy working mom who wants to cook quick healthy meals for her husband and 2 young kids who are very picky eaters. In this scenario Carly’s challenges are inspired from real data we gathered during our user research.</h5>
-                <p><b>Now I'm going to walk you through Carly’s journey using Nutritious Grocer, comparing the client’s original web prototype to our new app design.</b> This is the original web prototype created by our client, and I first want to give a
-                    high level overview of what Carly can do on Nutritious Grocer:</p>
+                <h4 style="text-align: center">Jimmy Chen is a busy college student who wants to review all the course material before the finals. The problem is that he struggles to stay awake and he had experience of study burnout before. It's essential for him to use a product to
+                    adjust his study plan and time management.</h4>
+                <span class="navbar-toggler-icon"></span>
+                <p><b>Now I'm going to walk you through the stats and effects of the fatigue problems, and present the design process of our product.</b> Below is the data our teammates collected from the National Safety Council and Research Gate, and I
+                    first want to give a high level overview of how fatigue has serious affect on people's everyday life.</p>
             </article>
         </div>
         <div class="row">
@@ -116,6 +152,9 @@
             <div class="col-md-4" style="text-align: center">
                 <img src="https://i.gyazo.com/58c5cab7016846b0bad621a23c4414ec.png" alt="Image from Gyazo" width="1280" />
                 <div class="content1">Influences Behind this symptom</div>
+                <div class="content1">
+                    (BAC level of 0.08% is considered legally drunk)
+                </div>
                 <p class="HMW"></p>
             </div>
 
@@ -124,233 +163,118 @@
 
     <div class="container">
         <div class="row">
-            <article class="col-md-12">
-                <img src="images/nutritious-grocer/original_nav_white.jpg" alt="old navigation">
-            </article>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
             <article class="col-md-8">
-                <h2>Before vs After: Find Recipes</h2>
-                <h3>Problems: Confusing nav bar & Limited filtering system</h3>
-                <p>Caring Carly is a busy working mom who wants to cook quick healthy meals for her husband and 2 young kids who are very picky eaters. In the following scenarios <b>Carly’s challenges are inspired from real data we gathered during our interviews, surveys and usability testings.</b></p>
-                <p>Let’s imagine Carly just came home from work. She didn’t have time to go to the grocery store but wants to cook her family a healthy meal, so she has to use ingredients she already has at home. However, she runs into some problems:</p>
+                <h2>Identify the Problems</h2>
+                <p>The theme for our final product is improving health. We began by thinking of and listing out any health related app ideas we could from combating substance abuse, to dealing with stress, to helping predict illness using sweat or spit samples,
+                    to deciding when to have a cup of coffee to maximize its positive benefits, to a jet-lag fighter. <b>Carly’s challenges are inspired from real data we gathered during our interviews, surveys and usability testings.</b></p>
+                <p>Then we started to define the main features of our app:</p>
                 <ul>
                     <li>
-                        <div class="content1">Confusing Nav Bar</div>First, she has a hard time differentiating between "Shop for Recipes" and "Find Recipes to Cook", and it is not immediately clear where she can find recipes to cook with the ingredients she has in her pantry.</li>
-                    <li>
-                        <div class="content1">Limited Filtering System</div>Additionally, she is frustrated that she cannot find specific types of recipes due to the limited filtering system.</li>
-                </ul>
-                <img class="browser-screenshot" src="images/nutritious-grocer/old_recipe.jpg" alt="old  recipe">
-            </article>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8 image-margin-refine-bottom">
-                <h3>Search for Recipes. Better in multiple ways.</h3>
-                <ul>
-                    <li>
-                        <div class="content1">Clear Nav Bar</div>In order to optimize the experience for Carly, we decided to consolidate all the recipes into a single page. We divided it into sections, the first being "Cook With What’s in My Pantry", clearly communicating
-                        to Carly where she can go to find recipes she has the ingredients for, which is a main feature of the platform.</li>
-                    <li>
-                        <div class="content1">Flexible Filtering System</div>In order to make it easier for Carly to find the specific type of recipes she is looking for, we designed a flexible filtering system where Carly can easily add and delete a variety of filters, which
-                        then show up on the recipes search page so she always can see the filters that are currently selected.</li>
-                </ul>
-            </article>
-            <article class="col-md-12 image-margin-refine-top">
-                <img src="images/nutritious-grocer/ng-search_recipe.jpg" alt="new design of navigation" onmouseover="this.src='images/nutritious-grocer/ng-search_recipe-hover.jpg'" onmouseout="this.src='images/nutritious-grocer/ng-search_recipe.jpg'">
-                <h5 style="text-align: center">Tip: hover to see hightlights.</h5>
-            </article>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8">
-                <h3>Problems: No Visual Hierarchy & Confusing Botton</h3>
-                <p>When Carly is preparing for cooking for recipe, she’s facing some problems with the current page:</p>
-                <ul>
-                    <li>
-                        <div class="content1">No Visual Hierarchy</div>There is no visual hierarchy in displaying the information, so she has no idea about where to look first.</li>
-                    <li>
-                        <div class="content1">Confusing Button</div>There is a “cook now” button for users to update the pantry. However, carly has no idea so what this button does so she has to go to the pantry page and do manual update. </li>
-                </ul>
-                <img class="browser-screenshot" src="images/nutritious-grocer/old_individual_recipe.jpg" alt="old individual recip">
-            </article>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8 image-margin-refine-bottom">
-                <h3>Recipes. Get to the info with fewer taps.</h3>
-                <p>While optimizing the product for mobile, we also add some new features.</p>
-                <ul>
-                    <li>
-                        <div class="content1">Adjust Numbers of Servings to Cook for a Family</div><b>Based on our survey, we found that people cook for various number of people.</b> In our new design, Carly can adjust the number of servings based on the number of people she
-                        cooks for, so she knows how much ingredients she need to cook for her family.</li>
-                    <li>
-                        <div class="content1">Handy Tabs to Minimize Scrolling</div>All the information is separated into 3 tabs, so <b>she doesn’t have to worry about doing too much scrolling when she gets her hands dirty in the kitchen.</b> Only by one click or swipe, she
-                        can find the information that she’s looking for.</li>
-                    <li>
-                        <div class="content1">Unambiguous Button</div>We also replace “Cook Now” with “Cook and Update Pantry”. By clicking on “Cook and Update Pantry”, all the ingredients that she used for cooking will be removed from the pantry.</li>
-                </ul>
-            </article>
-            <article class="col-md-12 image-margin-refine-top">
-                <img src="images/nutritious-grocer/ng-individual_recipe.jpg" alt="new design for individual recipe" onmouseover="this.src='images/nutritious-grocer/ng-individual_recipe-hover.jpg'" onmouseout="this.src='images/nutritious-grocer/ng-individual_recipe.jpg'">
-                <h5 style="text-align: center">Tip: hover to see hightlights.</h5>
-            </article>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8">
-                <h2>Before vs After: Manage Pantry</h2>
-                <h3>Problems: Too much scrolling & No expiration date</h3>
-                <p>Later in the evening, after Carley has enjoyed the dinner with her family, she wants to prepare for tomorrow’s dinner. She wants to cook the items that would expire soon but she comes across some problems of the current website.</p>
-                <ul>
-                    <li>
-                        <div class="content1">Too Much Scrolling</div>Firstly the images of the items are so large that it’s cumbersome for her to locate a specific item. <b>This insight is based on our usability testings that many people complained about too much scrolling on the pantry page.</b></li>
-                    <li>
-                        <div class="content1">No Expiration Date</div>Moreover Carley would easily forget about which item would expire soon because there’s no expiration date on the main pantry page. <b>This contradicts with our findings of interviews that many people expects to have more control of pantry items.</b></li>
-                </ul>
-                <img class="browser-screenshot" src="images/nutritious-grocer/old_pantry.jpg" alt="old pantry">
-            </article>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8 image-margin-refine-bottom">
-                <h3>Pantry. Manage at your fingertips.</h3>
-                <p>To help Carley keep track of what’s in her pantry, <b>we drew inspiration from several pantry management apps in our competitor analysis.</b></p>
-                <ul>
-                    <li>
-                        <div class="content1">Notification to Get Instant Reminders</div>Now Carley receives a notification that reminds her the ingredients that would expire in 3 days. There’s no worry for her to forget about the expiration date anymore.</li>
-                    <li>
-                        <div class="content1">Sort Items Easily to Minimize Scrolling</div>After Carley opens the app, she can sort the items either by expiration date or by category. All the items are listed in an appropriate size. She could also search the item directly
-                        in the search bar. No scrolling effort anymore.</li>
-                </ul>
-            </article>
-            <article class="col-md-12 image-margin-refine-top">
-                <img src="images/nutritious-grocer/ng-pantry.jpg" alt="new design for pantry management" onmouseover="this.src='images/nutritious-grocer/ng-pantry-hover.jpg'" onmouseout="this.src='images/nutritious-grocer/ng-pantry.jpg'">
-                <h5 style="text-align: center">Tip: hover to see hightlights.</h5>
-            </article>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8">
-                <h3>Problems: Useless graphs & Overwhemling nutrition info</h3>
-                <p> In the past, when Carly used the pantry item page, she found it difficult to interpret the graphs and find basic/high level nutrition information for that item.</p>
-                <ul>
-                    <li>
-                        <div class="content1">Useless Graphs</div>The graphs, which show her purchasing history of that item, weren’t particularly useful to her.</li>
-                    <li>
-                        <div class="content1">Overwhemling Nutrition Info</div>The nutrition information was also a bit too detailed. She wanted something simpler.</li>
-                </ul>
-                <img class="browser-screenshot" src="images/nutritious-grocer/old_pantry_item.jpg" alt="old pantry" />
-            </article>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8 image-margin-refine-bottom">
-                <h3>Pantry Items. Steamlined than ever.</h3>
-                <p>So, with the new design, Carly has a more streamlined experience:</p>
-                <ul>
-                    <li>
-                        <div class="content1">Key Info First</div>A pantry item’s quantity and expiration date are now prominently displayed, no longer competing with the confusing graphs. The nutrition information is more high level.</li>
-                    <li>
-                        <div class="content1">Recommended Recipes</div><b>Several participants from our user interviews also expressed problems with falling into ruts of cooking the same thing over and over again.</b> To help these users avoid such ruts, we added a section
-                        on this page of recommended recipes that include that pantry item ingredient.</li>
-                </ul>
-                <p>Carly decides she wants to cook the broccoli before it goes bad, so she clicks on the recommended recipe. </p>
-            </article>
-            <article class="col-md-12 image-margin-refine-top">
-                <img src="images/nutritious-grocer/ng-pantry-item.jpg" alt="new design for pantry item" onmouseover="this.src='images/nutritious-grocer/ng-pantry-item-hover.jpg'" onmouseout="this.src='images/nutritious-grocer/ng-pantry-item.jpg'">
-                <h5 style="text-align: center">Tip: hover to see hightlights.</h5>
-            </article>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8">
-                <h2>Before vs After: Check Out</h2>
-                <h3>Problems: Unintuitive delete interactions & Redundant price columns</h3>
-                <p> Carley discovers that she’s missing a few ingredients. She adds them to her cart and prepares to check out.</p>
-                <ul>
-                    <li>
-                        <div class="content1">Unintuitive Delete Interactions</div>In the original design, when Carly goes to her Cart, she is unable to edit the quantity of the items she wants to order. Removing an item from her Cart is also not a very clear process to her
-                        either.
+                        <div class="content1">Solve the issue of Chronic Fatigue</div>
                     </li>
                     <li>
-                        <div class="content1">Redundant Price Columns</div>In addition, she finds that having 2 price columns are unnecessary as she mostly cares about the total price she is going to pay.</li>
+                        <div class="content1">How to maximize effectiveness on a minimal amount of sleep</div>
+                    </li>
+                    <li>
+                        <div class="content1">Adjust sleep cycles from disruptions due to studying or jet-lag
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content1">Nutrients such as Caffeine and Melatonin as assistance.
+                        </div>
+                    </li>
                 </ul>
-                <img class="browser-screenshot" src="images/nutritious-grocer/old_cart.jpg" alt="old cart">
             </article>
         </div>
     </div>
-
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8 image-margin-refine-bottom">
-                <h3>Cart. Bottom line, check out as quick as a flick.</h3>
-                <p>To make this process more efficient for Carly, <b>we drew inspiration from Amazon and other competitors</b>:</p>
-                <ul>
-                    <li>
-                        <div class="content1">Swipe to Delete</div>We added a common iOS feature, where Carly can swipe over an item in order to quickly edit the item’s brand or quantity or remove it from her Cart.</li>
-                    <li>
-                        <div class="content1">Brands matter</div>We also added the ability to <b>change brands to meet Carly's family needs based on the interview findings.</b></li>
-                </ul>
-                <p>Once Carly is satisfied, she can purchase her items by selecting Proceed to checkout and can later pick them up at the grocery store and cook her family a delicious and nutritious meal.</p>
-            </article>
-            <article class="col-md-12 image-margin-refine-top">
-                <img src="images/nutritious-grocer/ng-cart.jpg" alt="new design for cart" onmouseover="this.src='images/nutritious-grocer/ng-cart-hover.jpg'" onmouseout="this.src='images/nutritious-grocer/ng-cart.jpg'">
-                <h5 style="text-align: center">Tips: hover to see hightlights.</h5>
-            </article>
-        </div>
-    </div>
-
-
 
     <div class="container">
         <div class="row">
             <article class="col-md-8">
-                <h2>Final Thoughts</h2>
-                <p>Refecting on the whole prcess,the most essential piece that we agreed to solve for was a mobile design, which we decided on after doing some <b>user interviews and surveys. This research validated our assumption that users would usually engage with the app in the kitchen on their phone.</b></p>
-                <p>Our research and design process was thorough and comprehensive. One stage that we found particularly useful was the <b>Ideation stage, during which we scoped the features for the new design by comparing current and envisioned features, and prioritizing that list.</b></p>
-                <p>
-                    Here are some quotes that we got as feedback from our client. Overall, he was impressed by our level of detail and effort put into design and research, and he thought that we really captured the essence of what Nutritious Grocer is.
+                <p> However, there were many limitations associated with each properties described above. Sleep tracking technology already existed; thus, the team had to think of better, novel ways to revamp its feature and also make it relevant. Before
+                    we proceed to discuss the potential features of our app, we first conducted the competitors analysis to see how can we develop new ideas and concepts.
                 </p>
-                <blockquote class="pull-quote">
-                    <p class="quote">"I feel they did a good job capturing the essence of what Nutritious Grocer is. It was a very collaborative process, and I enjoyed engaging with the team, which was a huge resource to really advance Nutritious Grocer far beyond what
-                        I could have done on my own." —Client</p>
-                </blockquote>
+
+            </article>
+            <article class="col-md-12 image-margin-refine-top">
+                <img src="https://i.gyazo.com/df53026a2ea13a4628db7afbb472646b.png" alt="Image from Gyazo" width="800" />
+                <h5 style="text-align: center">From left to right: Timeshifter, Uplift, Sleeptracker.</h5>
+            </article>
+            <article class="col-md-8">
+                <p>Many chronic fatigue apps focus mainly on jetlag, but our app looks at chronic fatigue as a whole. We market to a variety of consumers, and have features like the calculator app that benefit students as well as the plan setting that benefits
+                    travelers. The products showing above require extensive amount of data input; however, our app only takes 1-2 minutes and is more accurate.
+                </p>
+            </article>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <article class="col-md-8">
+                <h3>The Design</h3>
+                <ul>
+                    <li>
+                        For the design, we were inspired by minimalistic applications. Our main goal is to create an interface that is user-friendly and adovated for any user. However, the color scheme of the application has been changed to a blue color palette. We decided to
+                        finalize on softer pastel colors since it correlates with sleep to an extent, but it still enhances light. We are focusing on helping our users with chronic whether it is during the day or during the night, therefore, we wanted
+                        our color scheme to correlate with the purpose of the app.</li>
+                </ul>
+                <img class="browser-screenshot" src="assets/images/design.png" alt="#">
+            </article>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <article class="col-md-8 image-margin-refine-bottom">
+                <h3>Special Time Management Tools.</h3>
+                <p>After evaluating and considering different options, <b>our team designed the “calculator” feature and plan feature.</b></p>
+                <ul>
+                    <li>
+                        <div class="content1">"Caculating" your study tips </div>It can measure the functionality level of a person just by inputting the hour one goes to bed and the hour one wakes up. The calculator will also present potential “action steps” one can take,
+                        and how each action can either increase or decrease one’s fatigue level.</li>
+                    <li>
+                        <div class="content1">Build your personal schedule </div>Catering to the most fundamental goal of our app to deal with chronic fatigue, we would generate a customized plan tailored to meet specific purposes: cramming, jet-lag, night-shift, etc. Originally,
+                        we drew inspiration from the popular activity of cramming among college students.
+                    </li>
+                </ul>
+            </article>
+            <article class="col-md-12 image-margin-refine-top">
+                <img src="https://i.gyazo.com/00984853f0de971fa2cc347e287412d0.png" alt="Image from Gyazo" width="538.6666666666666" />
+                <h5 style="text-align: center">What the app can do.</h5>
+            </article>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <article class="col-md-8">
+                <!--<p> In the past, when Carly used the pantry item page, she found it difficult to interpret the graphs and find basic/high level nutrition information for that item.</p>-->
+                <ul>
+                    <li>
+                        <div class="content1">Performance Tracking games</div>These games can reflect the cognitive functions of the player, and thus could enhance our calculator function. They are divided into two categories: one aims to assess the players’ alertness for
+                        driving by testing their kinetic visual acuity; the other one aims to assess the player’s alertness for study/work by testing their attention and processing speed via Stroop effect tests. We also included a graph record of the
+                        user’s alertness and productivity to increase a sense of continuity.
+                    </li>
+                </ul>
+                <img src="https://i.gyazo.com/019164859e92c6a5a787efbe8e80ac43.png" alt="Image from Gyazo" width="693.3333333333334" /> </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <article class="col-md-8">
+                <h2>Final Thoughts and Future Plan</h2>
+                <p>Reflecting on our design process, the most exciting feature we developed was the “calculator”, which we came to an agreement after doing a great deal of user testing and surveys.<b> The calculator function provided our users a smart tool to keep tracking their health condition and productivity.</b></p>
+
+                <p>For our future plan, we want to build more features and have deep integration with more of the fitness trackers on the market to become a universal solution. Additionally, we want to enlarge our user groups and promote this product to
+                    working professionals.
+                </p>
+
             </article>
         </div>
     </div>
 
     <div class="readnext" id="readnext-tb">
         <h4>Read Next</h4>
-        <h3>Redesigning Teambition’s Mobile App</h3>
-        <a class="btn btn-black" href="teambition.html">Enter Password</a>
+        <h3>My short film about challenges and brotherhood.</h3>
     </div>
-
-    <footer class="contact">
-        <a class="scrollchange" href="mailto:lolajiang.ux@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
-        <a class="scrollchange" href="https://www.linkedin.com/in/lolajiang" target="_blank"><i class="fa fa-linkedin"></i></a>
-    </footer>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
