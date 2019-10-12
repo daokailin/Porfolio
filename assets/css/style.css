@@ -1,8 +1,10 @@
     .wallpaper {
         margin-top: 0;
-        padding: 50px;
-        background: url(../images/ballon3.jpg);
+        padding: 60px;
+        background: url(../images/ballon1.jpg);
+        background-repeat: no-repeat;
         background-size: cover;
+        background-position: 63% 65%;
         display: block;
     }
     
@@ -83,9 +85,9 @@
     }
     
     .box h4 {
-        font-size: 30px;
-        letter-spacing: 3px;
-        font-weight: 100;
+        font-size: 40px;
+        letter-spacing: 2px;
+        font-weight: 200;
         margin: 5% 5%;
     }
     
@@ -111,7 +113,7 @@
     }
     
     .box li a {
-        color: rgb(221, 38, 130);
+        color: rgb(251, 251, 5);
         text-decoration: none;
         font-size: 40px;
         transition: all ease-in-out 250ms;
