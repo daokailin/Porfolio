@@ -1,7 +1,7 @@
     .wallpaper {
         margin-top: 0;
-        padding: 60px;
-        background: url(../images/ballon1.jpg);
+        padding: 40px;
+        background: url(../images/ballonArt.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 63% 65%;
@@ -16,7 +16,7 @@
         margin-top: 2%;
         color: black;
         border-style: none;
-        font-family: 'Century Gothic', sans-serif;
+        font-family: 'Signika', 'Century Gothic', sans-serif;
     }
     
     .container {
@@ -25,7 +25,11 @@
         background: white;
         font-size: 24px;
         padding: 25px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /*font-family: 'Russo One', sans-serif;
+        font-family: 'Paytone One', sans-serif;
+        font-family: 'Hammersmith One', sans-serif;*/
+        font-family: 'Kreon', 'sans-serif';
+        /*font-family: 'Signika';*/
     }
     
     .container1 {
@@ -89,6 +93,7 @@
         letter-spacing: 2px;
         font-weight: 200;
         margin: 5% 5%;
+        font-family: 'Signika Negative';
     }
     
     .box p {
@@ -103,7 +108,7 @@
     
     .box #intro {
         margin-top: 20%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Kreon', 'Signika Negative', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     
     .box li {
@@ -272,4 +277,33 @@
     button:hover:after {
         opacity: 1;
         right: 10px;
+    }
+    
+    .contact {
+        margin: 10px;
+        margin-left: 5%;
+        padding: 10px;
+    }
+    
+    .contact a {
+        background: linear-gradient( to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+        background-position: 0 100%;
+        background-repeat: repeat-x;
+        background-size: 4px 4px;
+        color: #000;
+        text-decoration: none;
+        font-family: 'Kreon', sans-serif;
+    }
+    
+     :root {
+        --mainColor: #ff9800;
+    }
+    
+    .contact a:hover {
+        background: none;
+        color: red;
+        font-family: 'Creepster', cursive;
+        font-size: 1.2em;
+        letter-spacing: 3px;
+        line-height: .75em;
     }
