@@ -157,6 +157,12 @@
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
+        -moz-box-shadow: 7px 7px 5px #ccc;
+        -webkit-box-shadow: 7px 7px 5px #ccc;
+        box-shadow: 7px 7px 5px #ccc;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
     }
     
     .container .works #imgss {
@@ -170,6 +176,12 @@
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
+        -moz-box-shadow: 7px 7px 5px #ccc;
+        -webkit-box-shadow: 7px 7px 5px #ccc;
+        box-shadow: 7px 7px 5px #ccc;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
     }
     
     .container .works #imgsss {
@@ -183,6 +195,12 @@
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
+        -moz-box-shadow: 7px 7px 5px #ccc;
+        -webkit-box-shadow: 7px 7px 5px #ccc;
+        box-shadow: 7px 7px 5px #ccc;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
     }
     
     .container .works #imgssss {
