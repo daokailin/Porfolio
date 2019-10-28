@@ -1,6 +1,6 @@
     .wallpaper {
         margin-top: 0;
-        padding: 40px;
+        padding: 100px;
         background: url(../images/ballonArt.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -315,6 +315,10 @@
     
      :root {
         --mainColor: #ff9800;
+    }
+    
+    .contact {
+        font-family: 'Kreon';
     }
     
     .contact a:hover {
