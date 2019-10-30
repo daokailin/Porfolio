@@ -32,6 +32,37 @@
         /*font-family: 'Signika';*/
     }
     
+    .row {
+        width: 2000px;
+        margin: 5% 30px;
+        background: white;
+        font-size: 24px;
+        padding: 25px;
+        /*font-family: 'Russo One', sans-serif;
+        font-family: 'Paytone One', sans-serif;
+        font-family: 'Hammersmith One', sans-serif;*/
+        font-family: 'Kreon', 'sans-serif';
+        /*font-family: 'Signika';*/
+    }
+    
+    .column {
+        float: left;
+        width: 50%;
+    }
+    /* Clear floats after the columns */
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
+    
     .container1 {
         padding-top: 25px;
         padding-bottom: 25px;
