@@ -580,8 +580,8 @@ a,
 
 .con {
     font: 400 1em/1.5 "Signika";
-    background: #090d00;
-    color: rgba(59, 60, 33);
+    background: #ffffff;
+    color: rgb(255, 255, 255);
     text-align: center;
     bottom: 50%;
 }
