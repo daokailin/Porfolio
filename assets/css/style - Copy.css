@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 .wallpaper {
     margin-top: 0;
     padding: 100px;
-    background: url(../images/ballonArt.jpg);
+    background: url(../images/Dexcom-G6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 63% 65%;
@@ -299,7 +297,7 @@ button {
     text-align: center;
     font-size: 32px;
     padding: 16px;
-    width: 350px;
+    width: 220px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 36px;
@@ -365,185 +363,21 @@ button:hover:after {
     line-height: .75em;
 }
 
-.cards {
-    width: 100%;
-    display: flex;
-    display: -webkit-flex;
-    justify-content: center;
-    -webkit-justify-content: center;
-    max-width: 1000px;
-}
-
-.card--1 .card__img,
-.card--1 .card__img--hover {
-    background-image: url(../images/weChatScreenshot.png);
-}
-
-.card--2 .card__img,
-.card--2 .card__img--hover {
-    background-image: url(../images/linkedln.png);
-}
-
-.card--3 .card__img,
-.card--3 .card__img--hover {
-    background-image: url(../images/revitalCover.png);
-}
-
-.card--4.card__img,
-.card--4 .card__img--hover {
-    background-image: url(../images/videoProject.png);
-}
-
-.card__like {
-    width: 18px;
-}
-
-.card__clock {
-    width: 15px;
-    vertical-align: middle;
-    fill: #AD7D52;
-}
-
-.card__time {
-    font-size: 12px;
-    color: #AD7D52;
-    vertical-align: middle;
-    margin-left: 5px;
-}
-
-.card__clock-info {
-    float: right;
-}
-
-.card__img {
-    visibility: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 235px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
-
-.card__info-hover {
-    position: absolute;
-    padding: 16px;
-    width: 100%;
-    opacity: 0;
-    top: 0;
-}
-
-.card__img--hover {
-    transition: 0.2s all ease-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    position: absolute;
-    height: 235px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    top: 0;
-}
-
-.card {
-    margin-right: 25px;
-    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
-    background-color: #fff;
-    width: 33.3%;
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
-}
-
-.card:hover {
-    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-    transform: scale(1.10, 1.10);
-}
-
-.card__info {
-    z-index: 2;
-    background-color: #fff;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    padding: 16px 24px 24px 24px;
-}
-
-.card__category {
-    font-family: 'Raleway', sans-serif;
+.background p {
     text-transform: uppercase;
-    font-size: 13px;
-    letter-spacing: 2px;
-    font-weight: 500;
-    color: #868686;
-}
-
-.card__title {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-family: 'Roboto Slab', serif;
-}
-
-.card__by {
-    font-size: 12px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-}
-
-.card__author {
-    font-weight: 600;
-    text-decoration: none;
-    color: #AD7D52;
-}
-
-.card:hover .card__img--hover {
-    height: 100%;
-    opacity: 0.3;
-}
-
-.card:hover .card__info {
-    background-color: transparent;
-    position: relative;
-}
-
-.card:hover .card__info-hover {
-    opacity: 1;
-}
-
-.bigBeau {
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    font-family: 'Signika', 'Century Gothic', color: #fff;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 200% 200%;
-    animation: gradientBG 15s ease infinite;
-}
-
-@keyframes gradientBG {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-.beauty {
-    width: 100%;
+    letter-spacing: .5em;
+    display: inline-block;
+    border: 4px double rgba(255, 255, 255, .25);
+    border-width: 4px 0;
+    padding: 1.5em 0em;
     position: absolute;
-    top: 30%;
-    text-align: center;
+    top: 18%;
+    left: 50%;
+    width: 40em;
+    margin: 0 0 0 -20em;
 }
 
-.beauty h1 {
-    /*font-weight: 300;
-    font-family: 'Signika', 'Kreon';*/
+.background p span {
     font: 700 4em/1 "Oswald", sans-serif;
     letter-spacing: 0;
     padding: .25em 0 .325em;
@@ -562,73 +396,91 @@ button:hover:after {
     -webkit-backface-visibility: hidden;
 }
 
-.beauty h3 {
+.wrapper {
+    display: table;
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+canvas {
+    position: relative;
+    height: 100%;
+    top: 0;
+    width: 100%;
+}
+
+.introduction-canvas--overflow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: block;
+    background: linear-gradient(to right bottom, rgba(41, 8, 48, 0.95) 0, rgba(82, 65, 143, 0.95) 50%, rgba(114, 183, 227, 0.95) 100%);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    top: 50%;
+    margin-top: -100px;
+    z-index: 1001;
+    font-size: 32px;
+    letter-spacing: 0.2em;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container1 {
+    width: 100%;
+    position: absolute;
+    top: auto;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Exo", sans-serif;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h3 {
     color: #eee;
     font-weight: 100;
 }
 
-.beauty h5 {
+h5 {
     color: #eee;
     font-weight: 300;
 }
 
 a,
-.beauty a:hover {
+a:hover {
     text-decoration: none;
     color: #ddd;
-}
-
-.con {
-    font: 400 1em/1.5 "Signika";
-    background: #090d00;
-    color: rgba(59, 60, 33);
-    text-align: center;
-    bottom: 50%;
-}
-
-.con p {
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    display: inline-block;
-    border: 4px double rgb(255, 255, 255);
-    border-width: 4px 0;
-    padding: 1.5em 0em;
-    position: absolute;
-    width: 40em;
-    margin: 0 0 0 -20em;
-    mix-blend-mode: color-dodge;
-}
-
-.con span {
-    font: 700 4em/1 "Kreon", sans-serif;
-    letter-spacing: 0;
-    padding: .25em 0 .325em;
-    display: block;
-    margin: 0 auto;
-    text-shadow: 0 0 80px rgba(255, 255, 255, .5);
-    /* Clip Background Image */
-    background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
-    -webkit-background-clip: text;
-    background-clip: text;
-    /* Animate Background Image */
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: aitf 80s linear infinite;
-    /* Activate hardware acceleration for smoother animations */
-    -webkit-transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    mix-blend-mode: difference;
-}
-
-
-}
-
-/* Animate Background Image */
-@-webkit-keyframes aitf {
-    0% {
-        background-position: 0% 50%;
-    }
-    
-    100% {
-        background-position: 100% 50%;
-    }
 }
