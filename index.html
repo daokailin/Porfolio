@@ -28,7 +28,20 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        (function($) {
+            $('.js-nav-menu-toggle').on('click', function() {
+                $(this).parents('.navigation-menu').toggleClass('navigation-menu--open');
+            });
 
+            $('html').on('click', function(e) {
+                if (!$(e.target).closest('.js-nav-menu').length &&
+                    ($('.js-nav-menu').hasClass('navigation-menu--open'))) {
+                    $('.js-nav-menu').removeClass('navigation-menu--open');
+                }
+            });
+        })(jQuery);
+    </script>
 
 
 
@@ -36,6 +49,7 @@
 
 <body id="page1">
     <header>
+        <!--自己的navbar暂时不要
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div>
                 <a class="navbar-brand" href="#">
@@ -70,7 +84,16 @@
                         </div>
                     </li>
                 </ul>
-        </nav>
+        </nav>-->
+        <input type="checkbox" id="menu-toggle" />
+        <label id="trigger" for="menu-toggle"></label>
+        <label id="burger" for="menu-toggle"></label>
+        <ul id="menu" class="codepen">
+            <li><a href="#" style="color: black;">Home</a></li>
+            <li><a href="assets/files/Resume.pdf" style="color:black">Resume</a></li>
+            <li><a href="#projects" style="color: black">Projects</a></li>
+            <li><a href="#contactBottom" style="color: black">Contact</a></li>
+        </ul>
     </header>
     <div class="bigBeau">
         <div class="beauty">
@@ -113,14 +136,14 @@
             <h2>Skillset: </h2>
             <p>⚪HTML, CSS, Javascript, Visual Design, UX Research</p>
             <p>⚪Tools: Adobe Creative Suite, Figma, Sketch, Adobe Premiere Pro</p>
-            <a href="assets/files/Resume.pdf" style="text-align: justify;"><button style="-moz-border-radius: 25px;
+            <a href="assets/files/Resume.pdf" style="text-align: justify; "><button style="-moz-border-radius: 25px;
                 -webkit-border-radius: 25px;
                 border-radius: 15px;"><span>DOWNLOAD RESUME</span></button></a>
 
         </div>
     </div>
 
-    <div class="parallax" style="position: relative; display: grid" data-parallax="scroll" data-position="top" data-bleed="10" data-z-index="1" data-natural-width="1400" data-natural-height="900" style="height: 404px" data-image-src=" assets/images/sunRise.jpg ">
+    <div class="parallax" style="position: relative; display: grid" data-parallax="scroll" data-position="top" data-bleed="10" data-z-index="1" data-natural-width="1400" data-natural-height="900" style="height: 300px" data-image-src=" assets/images/sunRise.jpg ">
         <h1 class="test2" data-z-index="2" style="font-family: 'Kreon';">PROJECTS</h1>
     </div>
 
@@ -196,7 +219,7 @@
         </div>
     </div>
 -->
-    <div class="container">
+    <div class="container" id="projects">
         <section class="cards">
             <article class="card card--1">
                 <div class="card__info-hover">
@@ -216,7 +239,7 @@
                 <div class="card__info">
                     <span class="card__category">Web Auditing</span>
                     <h3 class="card__title">Author</h3>
-                    <span class="card__by">by <a href="#" class="card__author" title="author">Daokai Lin</a></span>
+                    <span class="card__by">by <a href="#" class="card__author" title="author" style="margin-top: 10%;">Daokai Lin</a></span>
                 </div>
             </article>
 
@@ -239,7 +262,7 @@
                 <div class="card__info">
                     <span class="card__category">Linkedln iOS Redesign</span>
                     <h3 class="card__title">UX Designer</h3>
-                    <span class="card__by">by <a href="#" class="card__author" title="author">Daokai Lin</a></span>
+                    <span class="card__by">by <a href="#" class="card__author" title="author" style="margin-top: 10%;">Daokai Lin</a></span>
                 </div>
             </article>
             <article class="card card--3">
@@ -259,8 +282,8 @@
                 </a>
                 <div class="card__info">
                     <span class="card__category">Revital App</span>
-                    <h3 class="card__title">UI/UX Designer</h3>
-                    <span class="card__by">by <a href="#" class="card__author" title="author">Daokai Lin</a></span>
+                    <h3 class="card__title">UX Designer</h3>
+                    <span class="card__by">by <a href="#" class="card__author" style="margin-top: 10%" title="author">Daokai Lin</a></span>
                 </div>
             </article>
             <article class="card card--4">
@@ -281,7 +304,7 @@
                 <div class="card__info">
                     <span class="card__category">Challengers & Friends</span>
                     <h3 class="card__title">Director</h3>
-                    <span class="card__by">by <a href="#" class="card__author" title="author">Daokai Lin</a></span>
+                    <span class="card__by">by <a href="#" class="card__author" title="author" style="margin-top: 10%;">Daokai Lin</a></span>
                 </div>
             </article>
 
@@ -326,9 +349,9 @@
     <div name="con" class="parallax" style="position: relative; display: grid" data-parallax="scroll" data-position="top" data-bleed="10" data-z-index="0" data-natural-width="1400" data-natural-height="900" style="height: 404px" data-image-src="assets/images/sunSet.jpg ">
         <h1 class="test" data-z-index="2" style="font-family: 'Kreon';">CONTACT</h1>
     </div>
-    <div class="contact">
-        <h2 style="margin-top: 1rem;">Email:
-            <a href="#">dalin@ucsd.edu</a></h2>
+    <div class="contact" id="contactBottom">
+        <h2>Email: dalin@ucsd.edu
+        </h2>
     </div>
     <div class="contact">
         <h2>Work: 858-405-3337</h2>
