@@ -1,71 +1,101 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>video</title>
-    <script src="https://use.fontawesome.com/04ee9d7103.js"></script>
-    <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/blogStyle.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/ReadingProgressBar.css" />
-    <link rel="icon" type="image/png" sizes="16x16" href="images/logo_bw.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/myyzlq.css">
     <link rel="stylesheet" href="assets/css/buttonStyle.css">
 
-    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <!--parallax effect script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.min.js"></script>
+    <script src="script.js"></script>
+
+    <!--faviicons link-->
+    <link rel="shortcut icon" href="assets/images/DL.png">
+
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Carter+One|Creepster|Hammersmith+One|Kreon|Signika|Paytone+One|Russo+One|Sigmar+One|Signika+Negative&display=swap" rel="stylesheet">
 
+
     <title>Daokai Lin-Porfolio</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        (function($) {
+            $('.js-nav-menu-toggle').on('click', function() {
+                $(this).parents('.navigation-menu').toggleClass('navigation-menu--open');
+            });
 
-    <!--parallax effect script-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="parallax.min.js"></script>
+            $('html').on('click', function(e) {
+                if (!$(e.target).closest('.js-nav-menu').length &&
+                    ($('.js-nav-menu').hasClass('navigation-menu--open'))) {
+                    $('.js-nav-menu').removeClass('navigation-menu--open');
+                }
+            });
+        })(jQuery);
+    </script>
 
-    <body oncontextmenu="return false" class="noselect">
-        <!-- <body> -->
-        <header>
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="height: 70px;">
-                <div>
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/images/DL.png" style="width:40px;">
-                    </a>
-                </div>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+</head>
+
+<body id="page1">
+    <header>
+        <!--自己的navbar暂时不要
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/DL.png" style="width:40px;">
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="assets/files/Resume.pdf">RESUME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#con">CONTACT</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto" style="font-family: 'Signika';">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/files/Resume.pdf">RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#con">CONTACT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     PROJECTS
                                 </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#Work1">Crania Official Website</a>
-                                <a class="dropdown-item" href="#Work2">ReVital App</a>
-                                <a class="dropdown-item" href="assets/files/auditing.pptx">O&A Web Auditing</a>
-                                <a class="dropdown-item" href="https://medium.com/me/stories/public">Design Process</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-        </header>
-        </nav>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#Work1">Crania Official Website</a>
+                            <a class="dropdown-item" href="case-study.html">ReVital App</a>
+                            <a class="dropdown-item" href="assets/files/auditing.pptx">O&A Web Auditing</a>
+                            <a class="dropdown-item" href="https://medium.com/me/stories/public">Medium Post</a>
+                        </div>
+                    </li>
+                </ul>
+        </nav>-->
+        <input type="checkbox" id="menu-toggle" />
+        <label id="trigger" for="menu-toggle"></label>
+        <label id="burger" for="menu-toggle"></label>
+        <ul id="menu" class="codepen">
+            <li><a href="#" style="color: black;">Home</a></li>
+            <li><a href="assets/files/Resume.pdf" style="color:black">Resume</a></li>
+            <li><a href="#projects" style="color: black">Projects</a></li>
+            <li><a href="#contactBottom" style="color: black">Contact</a></li>
+        </ul>
+    </header>
 
-        <div
+    <body>
+        <div class="container"></div>
+    </body>
