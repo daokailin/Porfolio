@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Neuton:200,400,700|Roboto+Mono:400,300|Julius+Sans+One|Quattrocento:400|Quattrocento+Sans:400,700|Merriweather:300,300i,400i);
-
 /*Solve the problem of "How to prevent horizontal scrolling on responsive webpage?"*/
 
 body {
@@ -503,6 +501,8 @@ p.image-labels {
     text-align: left;
 }
 
+
+/*
 ul {
     margin: 10px 20px;
     padding: 10px 20px;
@@ -555,6 +555,7 @@ li.menu-hz-li {
 li.menu-hz-li:last-child {
     margin-right: 0;
 }
+*/
 
 span.dropcap {
     float: left;
@@ -728,7 +729,7 @@ li {
 }
 
 
-/* Gallery */
+/* Gallery 
 
 #collage {
     background-color: #f6f6f6;
@@ -788,6 +789,7 @@ li {
         visibility: hidden;
     }
 }
+*/
 
 img {
     max-width: 100%;
@@ -946,7 +948,7 @@ span:nth-child(2) {
 }
 
 
-/*playground menu*/
+/*playground menu
 
 .playground-menu {
     color: #f3f3f3;
@@ -1171,5 +1173,3 @@ a {
 [type="checkbox"]:checked {
     display: none;
 }
-
-f
