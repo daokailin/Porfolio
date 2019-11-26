@@ -1069,7 +1069,7 @@ nav.menu-logo.playground-menu>a:hover {
 /*my navbar*/
 
 .codepen li {
-    margin: 75px 0 -55px 0;
+    margin: 20px;
     color: black;
     font: 20pt "Kreon", Signika;
     font-weight: 700;
