@@ -376,7 +376,7 @@ button:hover:after {
 
 .card--1 .card__img,
 .card--1 .card__img--hover {
-    background-image: url(../images/weChatScreenshot.png);
+    background-image: url(../images/tapride1.png);
 }
 
 .card--2 .card__img,
@@ -474,7 +474,7 @@ button:hover:after {
 .card__category {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 25px;
     letter-spacing: 2px;
     font-weight: 500;
     color: #868686;
@@ -484,6 +484,7 @@ button:hover:after {
     margin-top: 5px;
     margin-bottom: 10px;
     font-family: 'Roboto Slab', serif;
+    font-size: 15px;
 }
 
 .card__by {
@@ -496,6 +497,7 @@ button:hover:after {
     font-weight: 600;
     text-decoration: none;
     color: #AD7D52;
+    font-size: 15px;
 }
 
 .card:hover .card__img--hover {
@@ -519,7 +521,7 @@ button:hover:after {
     font-family: 'Signika', 'Century Gothic', color: #fff;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 200% 200%;
-    animation: gradientBG 15s ease infinite;
+    animation: gradientBG 7s ease infinite;
 }
 
 @keyframes gradientBG {
@@ -842,4 +844,7 @@ a {
     to {
         opacity: 1;
     }
+}
+.card {
+    border-radius: 0 !important;
 }
