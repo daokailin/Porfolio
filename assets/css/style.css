@@ -472,9 +472,9 @@ button:hover:after {
 }
 
 .card__category {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Kreon', 'Signika', sans-serif;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 27px;
     letter-spacing: 2px;
     font-weight: 500;
     color: #868686;
@@ -483,14 +483,15 @@ button:hover:after {
 .card__title {
     margin-top: 5px;
     margin-bottom: 10px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Kreon', serif;
     font-size: 15px;
 }
 
 .card__by {
     font-size: 12px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Kreon', sans-serif;
     font-weight: 500;
+    color: black;
 }
 
 .card__author {
@@ -498,6 +499,7 @@ button:hover:after {
     text-decoration: none;
     color: #AD7D52;
     font-size: 15px;
+    font-family: 'Kreon';
 }
 
 .card:hover .card__img--hover {
