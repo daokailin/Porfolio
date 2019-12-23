@@ -48,22 +48,23 @@
 
     <div class="container">
         <div class="row">
-            <article class="col-md-8">
+            <article class="col-md-8" style="margin-bottom: 0;">
                 <h1><b>LINKEDLN IOS REDESIGN</b></h1>
                 <p class="intro">DISCOVER VARIOUS PROFESSIONAL MEETING OPPORTUNITIES</p>
             </article>
         </div>
     </div>
 
-    <div class="bg-preloader-div" id="preloader-ng"></div>
+    <!-- <div class="bg-preloader-div" id="preloader-ng"></div>-->
 
-    <div class="container">
-        <div class="row">
-            <article class="image-margin-refine-top">
-                <img src="assets/images/linkedlnIntro.png" alt="new design of navigation" width=800>
-            </article>
-        </div>
+    <!--  <div class="container">-->
+    <div class="row">
+        <article class="image-margin-refine-top">
+            <img class="browser-screenshot" src="assets/images/linkedlnIntro.png" alt="new design of navigation" width=800>
+        </article>
     </div>
+    <!--</div>-->
+    <!--
     <div class="container">
         <div class="row">
             <article class="col-md-8">
@@ -75,7 +76,7 @@
             </article>
         </div>
     </div>
-
+-->
     <div class="container">
         <div class="row">
             <article class="col-md-8">
@@ -155,10 +156,10 @@
 
             </article>
             <article class="col-md-12 image-margin-refine-top">
-                <img src="assets/images/interview.png" alt="Image from Gyazo" width="800" />
-                <h5 style="text-align: center">Jinghan is interviewing an experienced linkedln user.</h5>
+                <img class="browser-screenshot" style="margin: auto;" src="assets/images/testingImage.png" width="700 " />
+                <h5 style="text-align: center ">Jinghao is interviewing experienced linkedln users.</h5>
             </article>
-            <!-- <article class="col-md-8">
+            <!-- <article class="col-md-8 ">
                     <p>Many chronic fatigue apps focus mainly on jetlag, but our app looks at chronic fatigue as a whole. We market to a variety of consumers, and have features like the calculator app that benefit students as well as the plan setting that benefits
                         travelers. The products showing above require extensive amount of data input; however, our app only takes 1-2 minutes and is more accurate.
                     </p>
@@ -166,60 +167,98 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8">
+    <div class="container ">
+        <div class="row ">
+            <article class="col-md-8 ">
                 <h2>Competitor Analysis</h2>
                 <p>Since group feature has been widely used in other popular social media platforms, we used Competitor analysis to research how well are they served the users and what's their primary features.</p>
                 <p>As we can see, most competitive products are lack of social elements which helps users to gain the sense of communities and belongings. Without the function that enables users to connect with others personally, the group feature will lose
                     its value. Additionally, we found that we could add a filter to allow users to target their interested groups/events, and we are also considering implement recommendation system to remind users the upcoming events or interesting news.
                 </p>
-                <img class="browser-screenshot" src="assets/images/Group 37.png" style="text-align: center;  margin-left: auto;
-                margin-right: auto;
-                width: 50%;">
+                <img class="browser-screenshot " src="assets/images/Group 37.png " style="text-align: center; margin-left: auto; margin-right: auto; width: 50%; ">
             </article>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8">
+    <div class="container ">
+        <div class="row ">
+            <article class="col-md-8 ">
                 <h2>UX Flow</h2>
                 <p>Before we jump right into prototyping, we first made sure to polish the features and user interaction flow.</p>
-                <p>The following feature flow chart illustrates our "group-based" UX flow, which is aimed to build broader interpersonal connection within the local communities that formed by people who shared the same passions. The current linkedln group
+                <p>The following feature flow chart illustrates our "group-based " UX flow, which is aimed to build broader interpersonal connection within the local communities that formed by people who shared the same passions. The current linkedln group
                     function is only accessible after users open the menu bar. Thus, we decided
                 </p>
 
-                <img class="browser-screenshot" src="assets/images/groupBased.png" alt="#">
+                <img class="browser-screenshot " src="assets/images/groupBased.png " alt="# ">
             </article>
 
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8">
-                <h2>Paper Prototype</h2>
-                <img src="assets/images/group1.png" alt="Image from Gyazo" width="800" />
-                <p style="margin-top: 5%;">We debated between using event based flow to better emphasize the events but opted to use group based flow to better follow the existing design patterns. Based on the data we collected from user testings, 80% of the interviewees stated
+    <div class="container ">
+        <div class="row ">
+            <article class="col-md-8 ">
+                <h2 style="margin-bottom: 5%; ">Paper Prototype</h2>
+                <img class="browser-screenshot" style="margin: auto;" src="assets/images/paper.png " alt="Image from Gyazo " width="700 " />
+                <p style="margin-top: 5%; ">We debated between using event based flow to better emphasize the events but opted to use group based flow to better follow the existing design patterns. Based on the data we collected from user testings, 80% of the interviewees stated
                     that they would show up to an event because of the group they've joined. In light of this, we decided to implement a group feature to help users to discover their interested communities. </p>
             </article>
 
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8">
-                <h2>Redesign Screens</h2>
-                <h4>
-                    Discover Groups
-                </h4>
+    <div class="container ">
+        <div class="row ">
+            <article class="col-md-8 ">
+                <h2 style="margin-bottom: 5%; ">Redesign Screens</h2>
+                <h4>Home Page (old users)</h4>
+                <p style="width: 50%; float: left; margin-top: 5%; ">This is the home page. Users have 2 points of entry for the group funtion. In addition to the group function button at the bottom bar, user can also access it through tooltips on the top of the screen, which is more visible and reminds
+                    them of this function. Based on user feedback, we intended to make the experience of accessing the funciton differently based on user’s habit and frequency. So ideally the top tooltips can be toggled off automatically and the app knows
+                    that the user has been accessing the function frequently. It will appear again if the users haven’t used it in a while.</p>
+                <img style="width: 35%; float: right; " src="assets/images/homePage.png ">
+            </article>
+            <article class="col-md-8 ">
+                <h4>Home Page (new users)</h4>
+                <p style="width: 50%; float: left; margin-top: 5%; ">If a new user hasn’t joined any groups yet, he/she will see this “new user” version screen once he enters the group function through either of the points of entry. There is a “dicover groups” section in the middle of the screen, and users
+                    can manually search groups. This section exists to invite the users to explore the function and gives them a starting point, while also telling them what this function does. Below that are various recommended groups that are based
+                    on users’ career interests and profile information. </p>
+                <img style="width: 35%; float: right; " src="assets/images/homePage1.png ">
+            </article>
+
+
+        </div>
+        <div class="row ">
+            <article class="col-md-8 ">
                 <h4>Group List</h4>
                 <p>We created several variants for the group list screen. With these alternatives, we tried to explore different ways of presenting event details. </p>
-                <p>70% of the users stated that they liked the calendar view since it's a direct visual representation of the event timeline. We simplified the calendar from monthly to weekly in order to retain only the necessary information and conserve
+                <img src="assets/images/calendarView.png " width="650 ">
+                <p style="margin-top: 5%; ">70% of the users stated that they liked the calendar view since it's a direct visual representation of the event timeline. We simplified the calendar from monthly to weekly in order to retain only the necessary information and conserve
                     space. Different button colors indicate the event status, and the small icon right next to the event title allows users to import these linkedln events to their favorite calendar apps.
                 </p>
             </article>
 
         </div>
+        <div class="row ">
+            <article class="col-md-8 ">
+                <h4>Group Detailed Page</h4>
+                <img style="width: 35%; float: right; " src="assets/images/groupDetail.png " width="700 ">
+                <p style="width: 50%; float: left; margin-top: 5%; ">This screen shows the detailed information of a specific group based in San Diego. Users can view the information about this group and its members. By tapping the area where it says “Start Conversation”, user can post messages or share
+                    pictures and videos. This function is available only after the users has joined the group. Furthermore, he/she can view the upcoming group events and other people’s posts.
+                </p>
+            </article>
+
+        </div>
+        <div class="row ">
+            <article class="col-md-8 ">
+                <h4>Event Detailed Page</h4>
+                <img style="width: 35%; float: left; margin-top: 5%; " src="assets/images/eventDetail1.png " width="700 ">
+                <p style="width: 50%; float: right; margin-top: 5%; ">This is the page where it shows all the information of a specific event. The biggest feature is that users can easily connect with the experienced professionals who host the event by clicking the “hosted by” area. For attendees, names
+                    of those whom the user has a conection with on LinkedIn will be displayed first, which increases their motivation to attend. We believe this change can be a subtle way to increase user’s desire to go to events, by meeting with his
+                    friend first, then also other people. This progression for meeting new people is also what we learned from user feedback: you build stronger connections if you and someone has attended few events together. Through such cycle, a user’s
+                    connections become more diverse and stronger, which achieves our redesign goals.
+                </p>
+            </article>
+
+        </div>
+
+    </div>
     </div>
     <!--
         <div class=" container ">
@@ -283,9 +322,7 @@
         </div>
     </div>
     <div class="readnext " id="readnext-tb ">
-        <a href="revital.html" style="text-align: center; margin-bottom: 5%; "><button style="-moz-border-radius: 25px;
-                -webkit-border-radius: 25px;
-                border-radius: 15px;"><span>Read Next</span></button></a>
+        <a href="revital.html " style="text-align: center; margin-bottom: 5%; "><button style="-moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 15px; "><span>Read Next</span></button></a>
         <h3>Revital App: an app I created to help students deal with of the problem of fatigue.</h3>
     </div>
     <!--
