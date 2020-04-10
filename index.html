@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/myyzlq.css">
     <link rel="stylesheet" href="assets/css/buttonStyle.css">
+    <link rel="stylesheet" href="assets/css/hover.css">
+
 
     <!--parallax effect script-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -17,6 +19,10 @@
 
     <!--faviicons link-->
     <link rel="shortcut icon" href="assets/images/DL.png">
+
+    <!--AOS effect-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -87,25 +93,10 @@
 
     </div>
 
-    <!-- <h1>Pure CSS3 Animated Gradient Background</h1>
-    <h2>
-        by Manuel Pinto
-    </h2> -->
-    <!--暂时不要
-    <div class="wallpaper">
-        <div class="box">
-            <h4 id="intro" style="color: rgb(255,255,255)">I'm Daokai, a Prospective <span style="color:rgb(255, 251, 5);">UI/UX </span> Designer</h4>
-            <ul>
-                <li><a href=""><i class="fa fa-facebook-square" arial-hidden="true"></i></a></li>
-                <li><a href="https://github.com/daokailin?tab=repositories"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/daokai-lin-17356b181/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-            </ul>
-        </div>
-    </div>
--->
 
 
-    <div class="container" id="projects">
+    <!--
+    <div class="container" data-aos="fade-up" id="projects">
         <section class="cards">
 
             <a href="DDI.html" class="card_link" style="text-decoration: none;">
@@ -155,7 +146,6 @@
             </a>
 
             <a href="triplec.html" class="card_link" style="text-decoration: none;">
-                <!--  <div class="card__img--hover"></div>-->
 
                 <article class="card card--4" style="border: none;">
                     <div class="card__info-hover">
@@ -229,43 +219,98 @@
         </section>
 
     </div>
+
+-->
+
+    <div class="container" data-aos="fade-up">
+        <div class="row newType" data-aos="fade-up">
+            <div class="col-6">
+                <a href="DDI.html" class="card_link" style="text-decoration: none;">
+
+                    <img class="img-fluid browser-screenshot shadow mb-5 bg-white rounded hvr-bounce-out" src="assets/images/ddiLogo.png " />
+                </a>
+            </div>
+            <div class="col-5 ml-5 ">
+                <h1 class="mb-5 "><strong>Diabetes Design Initiative</strong></h1>
+                <p class="mb-3">Developed CGM mobile app for Dexcom</p>
+                <p class=" text-secondary ">User Research, Medical Device</p>
+                <a href="DDI.html" style="text-align: justify; "><button style="-moz-border-radius: 25px;
+                    -webkit-border-radius: 25px;
+                    border-radius: 15px; margin-top: 7%;"><span>Learn More</span></button></a>
+            </div>
+        </div>
+        <div class="row newType " data-aos=" fade-up ">
+            <div class="col-6 ">
+                <a href="triplec.html " class="card_link " style="text-decoration: none; ">
+
+                    <img class="img-fluid browser-screenshot shadow mb-5 rounded hvr-bounce-out " src="assets/images/triplecLogo.png " />
+                </a>
+            </div>
+            <div class="col-5 ml-5 ">
+                <h1 class="mb-5 "><strong>Triple C Official Website</strong></h1>
+                <p class="mb-3 ">Redesigned Ocean engine app home page + modified user flow</p>
+                <p class="text-secondary style=font-size: ">Web Design, Front-end Development</p>
+                <a href="triplec.html" style="text-align: justify; "><button style="-moz-border-radius: 25px;
+                    -webkit-border-radius: 25px;
+                    border-radius: 15px; margin-top: 7%;"><span>Learn More</span></button></a>
+
+            </div>
+        </div>
+        <div class="row newType " data-aos="fade-up ">
+            <div class="col-6 ">
+                <a href="linkedln.html " class="abbt " style="text-decoration: none; ">
+
+                    <img class="img-fluid browser-screenshot shadow mb-5 rounded hvr-bounce-out " src="assets/images/newLinkedin.png " />
+                </a>
+            </div>
+            <div class="col-5 ml-5 ">
+                <h1 class="mb-5"><strong>LinkedIn IOS Redesign</strong></h1>
+                <p class="mb-3">Designed and improved new features for LinkedIn app</p>
+                <p class="text-secondary ">UI Design, Prototyping, UX Research</p>
+                <a href="linkedln.html" style="text-align: justify; "><button style="-moz-border-radius: 25px;
+                    -webkit-border-radius: 25px;
+                    border-radius: 15px; margin-top: 7%;"><span>Learn More</span></button></a>
+            </div>
+        </div>
+        <div class="row newType " data-aos="fade-up ">
+            <div class="col-6 ">
+                <a href="revital.html " class="card_link " style="text-decoration: none; ">
+
+                    <img class="img-fluid browser-screenshot shadow mb-5 rounded hvr-bounce-out " src="assets/images/newRevital.png " />
+                </a>
+            </div>
+            <div class="col-5 ml-5 ">
+                <h1 class="mb-5 "><strong>Revital Mobile App</strong></h1>
+                <p class="mb-3">Built a time management app for UCSD students</p>
+                <p class="text-secondary ">UX Design, Prototyping</p>
+                <a href="revital.html" style="text-align: justify; "><button style="-moz-border-radius: 25px;
+                    -webkit-border-radius: 25px;
+                    border-radius: 15px; margin-top: 7%;"><span>Learn More</span></button></a>
+            </div>
+        </div>
+    </div>
+
     <div class="parallax" style="position: relative; display: grid" data-parallax="scroll" data-position="top" data-bleed="10" data-z-index="1" data-natural-width="1400" data-natural-height="900" style="height: 300px" data-image-src=" assets/images/sunRise.jpg ">
         <h1 class="test2" data-z-index="2" style="font-family: 'Kreon';">ABOUT</h1>
     </div>
-    <!--准备换新的section页面
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img class="browser-screenshot" style="margin: auto;" src="assets/images/ddiLogo.png" width="500" height="400" />
-
-            </div>
-            <div class="col">
-                <h1>Dexcom Diabetes Design Initiative</h1>
-                <p>Redesigned Ocean engine app home page + modified user flow</p>
-            </div>
-        </div>
-    </div>
--->
 
 
-    <div><span style="display: table; clear: both;"></span></div>
+    <div><span style="display: table; clear: both; "></span></div>
 
 
-    <div><span style="display: table; clear: both;"></span></div>
+    <div><span style="display: table; clear: both; "></span></div>
 
 
-    <div style="display: flex;" class="container" id="about1" style="margin-top: 100%; margin-bottom: 30%">
-        <div style="width: 50%; margin-right:10%; text-align: left">
+    <div style="display: flex; " class="container " id="about1 " data-aos="fade-up " style="margin-top: 100%; margin-bottom: 30% ">
+        <div style="width: 50%; margin-right:10%; text-align: left " data-aos="fade-up ">
             <p>Hi, I'm Daokai, a senior student at UC San Diego studying Communication with a minor in Design. I am eager to secure internships and full-time positions in UI/UX Design and Web Development! I am passionate about using Human-Computer Interaction
                 Design skills to discover and analyze problems, and provide best solutions to solve them.
         </div>
-        <div style="width: 35%; text-align: justify">
+        <div style="width: 35%; text-align: justify " data-aos="fade-up ">
             <h2>Skillset: </h2>
             <p>⚪HTML, CSS, Javascript, Visual Design, UX Research</p>
             <p>⚪Tools: Adobe Creative Suite, Figma, Sketch, Adobe Premiere Pro</p>
-            <a href="assets/files/Resume.pdf" style="text-align: justify; "><button style="-moz-border-radius: 25px;
-                -webkit-border-radius: 25px;
-                border-radius: 15px;"><span>DOWNLOAD RESUME</span></button></a>
+            <a href="assets/files/Resume.pdf " style="text-align: justify; "><button style="-moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 15px; "><span>DOWNLOAD RESUME</span></button></a>
 
         </div>
     </div>
@@ -274,26 +319,27 @@
     <div class="parallax" style="position: relative; display: grid" data-parallax="scroll" data-position="top" data-bleed="10" data-z-index="1" data-natural-width="1400" data-natural-height="900" style="height: 404px" data-image-src="assets/images/anime-clouds.jpg ">
         <h1 class="test1" data-z-index="2" style="font-family: 'Kreon';">EXPERIENCE</h1>
     </div>
-    <div style="display: flex;" class="container" style="margin-top: 100%; margin-bottom: 30%">
-        <div style="width: 33%; text-align: left">
-            <div class="works">
-                <h3 style="margin-top: 1rem;">Digital Comm Intern:</h3>
-                <p class="text_small" style="margin-top: 1rem;">Out and About Communication, San Diego </p>
-                <p class="text_caption" style="margin-top: 1rem;">2019</p>
+
+    <div style="display: flex; " class="container " data-aos="fade-up " style="margin-top: 100%; margin-bottom: 30% ">
+        <div style="width: 33%; text-align: left " data-aos="fade-up ">
+            <div class="works ">
+                <h3 style="margin-top: 1rem; ">Digital Comm Intern:</h3>
+                <p class="text_small " style="margin-top: 1rem; ">Out and About Communication, San Diego </p>
+                <p class="text_caption " style="margin-top: 1rem; ">2019</p>
             </div>
         </div>
-        <div style="width: 33%; text-align: left">
-            <div class="works">
-                <h3 style="margin-top: 1rem;">Software Tester (Remote): </h3>
-                <p class="text_small" style="margin-top: 1rem;"> Test IO, San Diego </p>
-                <p class="text_caption" style="margin-top: 1rem;">2018</p>
+        <div style="width: 33%; text-align: left ">
+            <div class="works ">
+                <h3 style="margin-top: 1rem; ">Software Tester (Remote): </h3>
+                <p class="text_small " style="margin-top: 1rem; "> Test IO, San Diego </p>
+                <p class="text_caption " style="margin-top: 1rem; ">2018</p>
             </div>
         </div>
-        <div style="width: 33%; text-align: left">
-            <div class="works">
-                <h3 style="margin-top: 1rem;">Research Assistant: </h3>
-                <p class="text_small" style="margin-top: 1rem;">UCSD Design Lab</p>
-                <p class="text_caption" style="margin-top: 1rem;">2019</p>
+        <div style="width: 33%; text-align: left ">
+            <div class="works ">
+                <h3 style="margin-top: 1rem; ">Research Assistant: </h3>
+                <p class="text_small " style="margin-top: 1rem; ">UCSD Design Lab</p>
+                <p class="text_caption " style="margin-top: 1rem; ">2019</p>
             </div>
 
         </div>
@@ -305,11 +351,13 @@
     <div name="con" class="parallax" style="position: relative; display: grid" data-parallax="scroll" data-position="top" data-bleed="10" data-z-index="0" data-natural-width="1400" data-natural-height="900" style="height: 404px" data-image-src="assets/images/sunSet.jpg ">
         <h1 class="test" data-z-index="2" style="font-family: 'Kreon';">CONTACT</h1>
     </div>
-    <div class="contact" id="contactBottom">
+
+
+    <div class="contact " data-aos="fade-up " id="contactBottom ">
         <h2>Email: dalin@ucsd.edu
         </h2>
     </div>
-    <div class="contact">
+    <div class="contact " data-aos="fade-up ">
         <h2>Work: 858-405-3337</h2>
 
     </div>
@@ -323,7 +371,10 @@
 
 
     </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

@@ -290,17 +290,17 @@ ul {
 
 button {
     border-radius: 4px;
-    background-color: #0e0e0e;
+    background-color: #3a363a;
     border: none;
     color: #ffffff;
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
     padding: 16px;
-    width: 350px;
+    width: 300px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 36px;
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px -8px #3a363a;
 }
 
 button {
@@ -852,4 +852,13 @@ a {
 }
 .card {
     border-radius: 0 !important;
+}
+.newType {
+    margin-bottom: 100px !important;
+}
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
