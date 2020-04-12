@@ -1153,11 +1153,11 @@ nav.menu-logo.playground-menu>a:hover {
     padding: 0;
     width: 110px;
     height: 110px;
-    background-color: #fff;
+    /*background-color: #fff;
     border-bottom-right-radius: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
     animation: not-checked-anim .2s both;
-    transition: .2s;
+    transition: .2s;*/
 }
 
 #menu-toggle:checked+#trigger+#burger+#menu {
