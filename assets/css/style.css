@@ -26,7 +26,7 @@ html {
     margin-top: 2%;
     color: black;
     border-style: none;
-    font-family: 'Signika', 'Century Gothic', sans-serif;
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative';
 }
 
 .container {
@@ -38,7 +38,7 @@ html {
     /*font-family: 'Russo One', sans-serif;
         font-family: 'Paytone One', sans-serif;
         font-family: 'Hammersmith One', sans-serif;*/
-    font-family: 'Kreon', 'sans-serif';
+    font-family: 'Enriqueta', 'sans-serif';
     /*font-family: 'Signika';*/
 }
 
@@ -50,7 +50,7 @@ html {
     /*font-family: 'Russo One', sans-serif;
         font-family: 'Paytone One', sans-serif;
         font-family: 'Hammersmith One', sans-serif;*/
-    font-family: 'Kreon', 'sans-serif';
+    font-family: 'Enriqueta', 'sans-serif';
     /*font-family: 'Signika';*/
 }
 
@@ -129,12 +129,12 @@ html {
     letter-spacing: 2px;
     font-weight: 200;
     margin: 5% 5%;
-    font-family: 'Signika Negative';
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative';
 }
 
 .box p {
     text-align: justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative';
 }
 
 ul {
@@ -144,7 +144,7 @@ ul {
 
 .box #intro {
     margin-top: 20%;
-    font-family: 'Kreon', 'Signika Negative', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .box li {
@@ -346,7 +346,7 @@ button:hover:after {
     background-size: 4px 4px;
     color: #000;
     text-decoration: none;
-    font-family: 'Kreon', sans-serif;
+    font-family: 'Enriqueta', 'sans-serif';
 }
 
  :root {
@@ -354,180 +354,23 @@ button:hover:after {
 }
 
 .contact {
-    font-family: 'Kreon';
+    font-family: 'Enriqueta', 'sans-serif';
 }
 
 .contact a:hover {
     background: none;
     color: red;
-    font-family: 'Creepster', cursive;
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative';
     font-size: 1.2em;
     letter-spacing: 3px;
     line-height: .75em;
-}
-
-.cards {
-    width: 100%;
-    display: flex;
-    display: -webkit-flex;
-    justify-content: center;
-    -webkit-justify-content: center;
-    margin-bottom: 10%;
-    /*max-width: 1000px;*/
-}
-
-.card--1 .card__img,
-.card--1 .card__img--hover {
-    background-image: url(../images/image24.png);
-}
-
-.card--2 .card__img,
-.card--2 .card__img--hover {
-    background-image: url(../images/linkedln.png);
-}
-
-.card--3 .card__img,
-.card--3 .card__img--hover {
-    background-image: url(../images/revitalCover.png);
-}
-
-.card--4.card__img,
-.card--4 .card__img--hover {
-    background-image: url(../images/triplecLogo.png);
-}
-
-.card--5.card__img,
-.card--5 .card__img--hover {
-    background-image: url(../images/ddiLogo.png);
-}
-
-.card__like {
-    width: 18px;
-}
-
-.card__clock {
-    width: 15px;
-    vertical-align: middle;
-    fill: #AD7D52;
-}
-
-.card__time {
-    font-size: 12px;
-    color: #AD7D52;
-    vertical-align: middle;
-    margin-left: 5px;
-}
-
-.card__clock-info {
-    float: right;
-}
-
-.card__img {
-    visibility: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 235px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
-
-.card__info-hover {
-    position: absolute;
-    padding: 16px;
-    width: 100%;
-    opacity: 0;
-    top: 0;
-}
-
-.card__img--hover {
-    transition: 0.2s all ease-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    position: absolute;
-    height: 235px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    top: 0;
-}
-
-.card {
-    margin-right: 50px;
-    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
-    background-color: #fff;
-    width: 30%;
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
-}
-
-.card:hover {
-    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-    transform: scale(1.10, 1.10);
-}
-
-.card__info {
-    z-index: 2;
-    background-color: #fff;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    padding: 16px 24px 24px 24px;
-}
-
-.card__category {
-    font-family: 'Kreon', 'Signika', sans-serif;
-    text-transform: uppercase;
-    font-size: 27px;
-    letter-spacing: 2px;
-    font-weight: 500;
-    color: #868686;
-}
-
-.card__title {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-family: 'Kreon', serif;
-    font-size: 15px;
-}
-
-.card__by {
-    font-size: 12px;
-    font-family: 'Kreon', sans-serif;
-    font-weight: 500;
-    color: black;
-}
-
-.card__author {
-    font-weight: 600;
-    text-decoration: none;
-    color: #AD7D52;
-    font-size: 15px;
-    font-family: 'Kreon';
-}
-
-.card:hover .card__img--hover {
-    height: 100%;
-    opacity: 0.3;
-}
-
-.card:hover .card__info {
-    background-color: transparent;
-    position: relative;
-}
-
-.card:hover .card__info-hover {
-    opacity: 1;
 }
 
 .bigBeau {
     margin: 0;
     width: 100%;
     height: 100vh;
-    font-family: 'Signika', 'Century Gothic', color: #fff;
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative';
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 200% 200%;
     animation: gradientBG 7s ease infinite;
@@ -597,6 +440,12 @@ a,
     bottom: 50%;
 }
 
+@media(max-width: 776px) {
+    .con span {
+        font-size: 10px !important;
+    }
+}
+
 .con p {
     text-transform: uppercase;
     letter-spacing: .5em;
@@ -611,7 +460,7 @@ a,
 }
 
 .con span {
-    font: 700 4em/1 "Kreon", sans-serif;
+    font: 700 4em/1 'Enriqueta', sans-serif;
     letter-spacing: 0;
     padding: .25em 0 .325em;
     display: block;
@@ -678,7 +527,7 @@ a,
 .codepen li {
     margin: 75px 0 -55px 0;
     color: white;
-    font: 20pt "Kreon", Signika;
+    font: 20pt 'Enriqueta', Signika;
     font-weight: 700;
     line-height: 1.8;
     text-decoration: none;
@@ -1044,11 +893,19 @@ a:active {
 }
 .aboutpage {
     color: #222222;
-    font-family: Enriqueta;
+    font-family: 'Enriqueta';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     text-transform: none;
     margin: 2rem 0;
     font-size: 25px;
+}
+.sstitle {
+    font-size: 2.5rem !important;
+}
+@media(max-width: 728px) {
+    .sstitle {
+        font-size: 1.5rem !important;
+    }
 }
