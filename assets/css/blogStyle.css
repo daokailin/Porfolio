@@ -1148,11 +1148,11 @@ nav.menu-logo.playground-menu>a:hover {
 }
 
 #menu {
-    position: absolute;
+    position: relative;
     margin: 0;
     padding: 0;
     width: 110px;
-    height: 110px;
+    height: 50px;
     /*background-color: #fff;
     border-bottom-right-radius: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
