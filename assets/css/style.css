@@ -874,3 +874,8 @@ a:active {
         font-size: 1.5rem !important;
     }
 }
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+}
