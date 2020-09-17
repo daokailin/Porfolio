@@ -9,6 +9,13 @@ body {
     overflow-x: hidden !important;
 }
 
+strong{
+    font-weight:bold !important;
+   }
+
+b{
+    font-weight: bold !important;
+}
 
 /*Solution Ends*/
 
@@ -286,9 +293,6 @@ small.small {
     font-size: 80%;
 }
 
-strong.strong {
-    font-weight: 700;
-}
 
 b {
     font-weight: 700;
