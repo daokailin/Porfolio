@@ -119,7 +119,7 @@ blockquote {
     font-size: 19px;
     line-height: 50px;
     margin: 0;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'， 'Microsoft YaHei';
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'，'STHeiti', 'Microsoft YaHei';
     font-weight: 700;
     font-style: normal;
 }
@@ -130,16 +130,25 @@ h1 {
     margin: 0px 0px 0.37em 0px;
     font-weight: 400;
     font-style: normal;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'， 'Microsoft YaHei';
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'，'STHeiti','Alibaba PuHuiTi', 'Microsoft YaHei';
     font-weight: 700;
 }
 
-h2 {
+
+/*h2 {
     font-size: 42px;
     line-height: 50px;
     margin: 0 0 1em 0;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'， 'Microsoft YaHei';
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'，'STHeiti',  'Microsoft YaHei';
     font-weight: 700;
+    font-weight: 400;
+    font-style: normal;
+}*/
+h2{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0px 0.5em 0px;
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'STHeiti',  'Microsoft YaHei';
     font-weight: 400;
     font-style: normal;
 }
@@ -148,7 +157,7 @@ h3 {
     font-size: 28px;
     line-height: 50px;
     margin: 2em 0 0 0;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'，'Microsoft YaHei';
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'，'STHeiti', 'Microsoft YaHei';
     font-weight: 700;
     font-weight: 400;
     font-style: normal;
@@ -158,16 +167,15 @@ h4 {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0px 0.5em 0px;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'Microsoft YaHei';
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'STHeiti',  'Microsoft YaHei';
     font-weight: 400;
     font-style: normal;
 }
 
 h5 {
-    font-style: italic;
     color: #21272d;
     margin: 2em 0px;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative','Microsoft YaHei';
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative','STHeiti', 'Microsoft YaHei';
     font-weight: 700;
     font-weight: 400;
     font-size: 14px;
@@ -180,14 +188,14 @@ h6 {
     font-size: 42px;
     line-height: 50px;
     margin: 0px 0px 0.5em 0px;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'Microsoft YaHei';
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'STHeiti', 'Microsoft YaHei';
     font-weight: 700;
     font-style: normal;
 }
 
 p {
     margin: 2em 0px;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'Microsoft YaHei';
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'Alibaba-PuHuiTi-Regular',' SimSun Regular', 'Microsoft YaHei';
     font-style: normal;
     font-size: 18px;
     line-height: 36px;
@@ -197,7 +205,7 @@ p.intro {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0px 1.5em 0px;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'Microsoft YaHei';
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'STHeiti Regular', 'Microsoft YaHei';
     font-weight: 300;
     font-style: normal;
 }
@@ -308,7 +316,6 @@ img.square {
 
 img.browser-screenshot {
     box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
     z-index: 2;
     position: relative;
     margin: 0 0 2em;

@@ -66,18 +66,16 @@
 
     <div class="container">
         <div class="text-center" style="margin-top: 5%; margin-bottom: 5%;">
-            <img style="box-shadow: none; text-align: center;" src="assets/images/shopeeDesktop.jpg" alt="new design of navigation" width=1400>
+            <img style="box-shadow: none; text-align: center;" src="assets/images/Group111.jpg" alt="new design of navigation" width=1400>
         </div>
     </div>
 
 
     <div class="container">
-        <div class="row">
             <article class="col-md-8" style="margin-bottom: 0;">
-                <h1 style="font-size: 50px;"><b>Shopee Seller Center Redesign</b></h1>
-                <p class="intro">Leading E-Commerce Platform in Southeast Asia</p>
+                <h1 style="font-size: 50px;"><b>Shopee卖家中心设计</b></h1>
+                <p class="intro">B端系统界面设计</p>
             </article>
-        </div>
     </div>
 
     <!-- <div class="bg-preloader-div" id="preloader-ng"></div>-->
@@ -88,15 +86,15 @@
     <div class="container">
         <article class="col-md-8">
             <div style="width: 45%; float: left; text-align: left;">
-                <h2 style="margin-bottom: 3%;">Overview</h2>
-                <p>In this design challenge, I redesigned Shopee seller center's shop rating page,  </p>
+                <h2 style="margin-bottom: 3%;"><b>概览</b></h2>
+                <p>在这个为期五天的设计挑战中，我重新设计了PC端的shopee卖家中心的界面。通过对真实卖家的访谈以及对现有界面的信息架构的分析，我提供了新的设计方案以帮助卖家更高效的管理的商店评价与客服交流。  </p>
             </div>
             <div style=" width: 40%; float: left; margin-left: 15%;">
-                <h3 style="margin-bottom: 3%;">Details</h3>
+                <h2 style="margin-bottom: 3%;"><b>细节</b></h2>
                 <p>Role: UX Design, Research
                 </p>
                 <hr/>
-                <p>By Daokai Lin
+                <p>By 林道锴
                 </p>
                 <hr/>
                 <p>Tools: Figma, Invision
@@ -108,18 +106,25 @@
         <br />
         <br />
         <br />
+        <br />
+        <br />
 
 
     </div>
+   
+    <br />
+    <br />
+    <br />
 
     <div class="container ">
         <div class="row ">
             <article class="col-md-8 ">
-                <h2>Project Introduction</h2>
+                <h2><strong>项目背景</strong></h2>
 
-                <p><b>The problem is that residents within different communities have limited access to reliable sources on the impact COVID-19 has within their local counties. Between 2005 and 2015, the rates of social media and social networking usage significantly increased with nearly 65% of all adults and 35% of 65 and older report using social media sites as sources where they can access and share information about health, political deliberation, and communication patterns around the globe.
-
-             </p>         
+                <p>Shopee(虾皮购物)是东南亚增长最快的电商平台，其业务范围包括了新加坡，马来西亚，台湾等地区。shopee卖家后台中心便为卖家起到了管理订单，查看店铺产品销售和店铺表现的关键数据等作用。我此次的任务便是针对商店评价(Shop Rating)这一界面进行分析与优化。</p>        
+             <article class="col-md-12 image-margin-refine-top ">
+                <img class="browser-screenshot" style="margin: 5% auto 5% auto; " src="assets/images/shopeeExisted.png " width="900 " />
+            </article> 
               </article>
             </div>
         </div>
@@ -128,17 +133,31 @@
     <div class="container ">
         <div class="row ">
             <article class="col-md-8 ">
-                <h2>Proposed Solution</h2>
+                <h2><strong>产品概况</strong></h2>
                 <p>
-                    A system needs to be established that sends relevant push notifications to phones when there is an update regarding COVID-19 information.
-
+                    商店评价是shopee卖家端后台管理系统的重要一环，消费者如今都十分依赖其他买家的评价来做出购买决策，也是保证双方交易的信任的基础。若是需要对该功能进行分析与重新设计，便首先需要了解各方对于评价系统的要求：
                 </p>
-                <article class="col-md-12 image-margin-refine-top ">
-                    <img  style="margin: auto; " src="assets/images/covidProblem.png " width="750 " />
-                </article>
-                <p>Finding credible information about COVID-19 at local levels is difficult. Our application, ViFo, empowers people with local knowledge to make informed decisions with their communities in mind. Features include a dashboard with COVID-19 data, customizable news feeds, push notifications, and maps of local resources.
-
-                </p>
+            <ul>
+                <li>买家：体现用户对商品质量，店家服务，物流等信息的感受反映出来，为其他人提供参考信息</li>
+                <li style="color: #EE4D2D"><b>卖家：了解用户对商品的感想与使用情况，展现商品卖点，提高用户购买率，为店铺打造口碑及评价体系，更好地对资源进行管理等</b></li>
+                <li>平台：为买卖双方构建一个高效沟通的渠道，维持交易的透明性和公平性，提升商品流通的效率</li>
+            </ul>
+            <p>
+                因此，我将从这里出发，深入分析shopee现在的商店评价界面的架构，优缺点，可改进之处，并进行重新设计。
+            </p>
+            </article>
+            <article class="col-md-8 ">
+                <h4><strong>信息架构&功能</strong></h4>
+            <p>鉴于鉴于目前的界面采用的是上下布局，我便由上至下将其页面结构分为四个部分： </p>
+            
+            <br />
+            <img style="margin: 3% auto 3% auto;" src="assets/images/jiemian.png" width="750"/>
+            <br />
+            <p>在该页面的主要使用场景中，顶部信息栏包含了当前的商店评价等级。卖家一般会先通过筛选器来定位自己想要查看的某类商品，再通过tab部分对不同星级的商品评价进行分类，最后查看底部列表页的信息。必要时会通过回复功能对某些买家的评论或需求进行回复。以满足查看优质商品特点，了解低评价商品的问题，以及及时回复买家等需求</p>
+            <br />
+            <img class="browser-screenshot"style="margin: 3% auto 3% auto;" src="assets/images/jiemian1.png" width="800"/>
+            <br />
+            </article>
 
             </article>
         </div>
@@ -147,15 +166,13 @@
     <div class="container ">
         <div class="row ">
             <article class="col-md-8 ">
-                <h2>Use Cases</h2>
-                <p>Our application will be used by people living in areas affected by COVID-19 that wish to be informed of the impact the virus has had within their communities. While our app is not intended for a specific age range of users, we did design the application with older demographics in mind as they tend to experience more technical difficulties than younger users. 
+                <h2><strong>用户调研</strong></h2>
+                <p>分析完商店评价界面的基本结构后，我对部分淘宝，亚马逊，和shopee的卖家进行了深度访谈，以了解他们工作中管理商店评价时的体验，对各类功能的使用情况，以及主要的用户需求。访谈人员包括了3位shopee卖家，2位国内淘宝卖家，和1位亚马逊卖家。我提炼出了这几位用户的主要使用流程，以及对现有功能的满意程度。
                 </p>
-                <img  style="margin: auto; " src="assets/images/vifoPicture.png " width="750 " />
+                <img class="browser-screenshot" style="margin: 3% auto 3% auto;" src="assets/images/shopeeUserA.png " width="750 " />
+                <img class="browser-screenshot" style="margin: 3% auto 3% auto;" src="assets/images/shopeeUserB.png " width="750 " />
+                <img class="browser-screenshot" style="margin: 3% auto 3% auto;" src="assets/images/shopeeUserC.png " width="750 " />
 
-                <p>The first use case is simple: people will be presented with a dashboard that presents an overview of COVID-19 cases, deaths, and recoveries in their areas along with guidelines on how to be responsible in wake of the pandemic, implement prevention techniques, and create treatments.</p>
-                <p>The second use case is similar to the first as users are still being presented with information but this time it is a news feed of articles and other resources curated based on the tags the user has set in their preferences and other filters like trending. 
-                </p>
-               
 
 
             </article>
@@ -166,56 +183,33 @@
     <div class="container ">
         <div class="row ">
             <article class="col-md-8 ">
-                <h2>Process</h2>
+                <h4><strong>用户痛点&设计理念</strong></h4>
+                   
+                        <img class="browser-screenshot " style="margin: 3% auto 3% auto;" src="assets/images/Empathy Map.png " width="800 " />
+                        <p>对于这些卖家用户来说，如何通过管理商品收到的评价来提升买家的满意度和增加店铺的好评率是他们最为主要的问题。<span style="color: #EE4D2D;"><strong>现有的交互界面无法有效的帮助他们去定位中，差的商品评价，寻找高评分的畅销产品，和提取差评的关键信息</strong></span></p>
 
-             
+                        <p>B端产品的特性普遍是追求不同用户与平台间的高效沟通，对信息与资源进行有效管理，以及尽量满足不同场景及不同用户的使用习惯与要求。根据我对商店评价页面的分析，以及对这6名电商卖家所进行的用户访谈，我总结出了以下几个主要的设计思路，并从这些要素出发来设计初步的线框图。最后再通过基本的用户测试来对低保真模型进行版本迭代，以输出最终的设计方案</p>
                 <br />
-                <br />
+                
+
+                    <img  style="margin: auto; " src="assets/images/linian.png " width="900 " />
+                    <br />
+                    <br />
               
-
-                <h4 style="font-style: normal; ">User Research</h4>
-                    <p>
-                        The information that is available to the public is sometimes messy (hard to find or understand). In addition, many people have been affected in different ways and we wanted to get a better understanding of what the people needed order to get a better understanding of the whole situation. Thus, we sent out surveys to get key insights from these questionnaries.  </p>
-                        <img class="browser-screenshot " style="margin: auto; " src="assets/images/covidSurvey.png " width="800 " />
-                        <br />
-                        <p>Based on 44 responses we received so far, the majority of the respondents said that they would like to have access to more statistics and community information regarding the pandemic. I then started thinking What information do people think will be useful in an application to educate a community about the current situation with COVID-19?</p>
-                <br />
-                    <h4 style="font-style: normal; ">In-depth Interview</h4>
-                    <p>
-                        For the next phase, we conducted 9 video interviews with people who work in different industries. Despite the general user testing questions, I asked specific questions about their basic needs during this pandemic. Even though the interviewees have different occupations, I noticed that their common goal is to gather the most important and relevant information into a single app. Thus, I led our team to transform these user needs into the high-fidelity prototypes.
-                    </p>
-
-                    <img class="browser-screenshot " style="margin: auto; " src="assets/images/covidInterview.png " width="1000 " />
-                    <br />
-                    <br />
-                    <h4 style="font-style: normal; margin-bottom: 3%; ">Competitor Analysis</h4>
-                    <img class="browser-screenshot " style="margin:auto; " src="assets/images/vifoCompetitor.png " width="1000 " />
-                    <br />
-
-                    <p>
-                        For the next phase, we conducted 9 video interviews with people who work in different industries. Despite the general user testing questions, I asked specific questions about their basic needs during this pandemic. Even though the interviewees have different occupations, I noticed that their common goal is to gather the most important and relevant information into a single app. Thus, I led our team to transform these user needs into the high-fidelity prototypes.
-                    </p>
             </article>
 
 
         </div>
     </div>
 
-    <div class="container ">
-        <div class="row ">
-            <article class="col-md-8 ">
-                <h2 style="margin-bottom: 3%; ">Style Guidelines</h2>
-                <img style="margin: auto; padding-bottom: 5%; " src="assets/images/vifoStyle.png " width="1000 " />
-                <p>Based on Apple's official design guidelines, I created a set of components for my team to design the user interface. I mainly used rounded corner to guide users' eyes to recognize the visual difference.</p>
-            </article>
-        </div>
-    </div>
+  
 
    <div class="container">
        <div class="row ">
            <article class="col-md-8 ">
-               <h2 style="margin-bottom: 3%; ">Low Fidelity Wireframes</h2>
-               <img style="margin: auto; padding-bottom: 5%; " src="assets/images/vifoLow.png " width="1000 " />
+               <h2 style="margin-bottom: 3%; "><strong>线框图</strong></h2>
+               <img  style="margin: 3% auto 3% auto;" src="assets/images/xiankuang.png " width="1000 " />
+
             
     </article>
     </div>
@@ -224,84 +218,49 @@
     <div class="container ">
         <div class="row ">
             <article class="col-md-8 ">
-                <h2 style="margin-bottom: 3%; ">Final Design</h2>
+                <h2 style="margin-bottom: 5%; "><strong>最终设计&迭代</strong></h2>
+                <img  style="margin: 5% auto 5% auto; " src="assets/images/shopeeFinalA.png " width="1000 " />
+                <p ><span style="color: #EE4D2D;"><strong>实时数据</strong></span>: 这一新增模块可以提醒卖家新增的商品评论，尚未浏览的评价，以及还未处理的中，差评价</p>
+                <p ><span style="color: #EE4D2D;"><strong>商店评分</strong></span>: 将评分维持在界面右侧不便，在视觉上添加了一些新的元素，让画面整体看起来不再那么单调</p>
+
+                <img  style="margin: 5% auto 5% auto; " src="assets/images/shopeeFinalB.png " width="1000 " />
+
+                <p ><span style="color: #EE4D2D;"><strong>新增分类</strong></span>: 在原本的分类基础上，增加了新的查看方式，用户可以选择以时间顺序排序列表页，也可以选择按商品查看，以了解某类商品的销售情况</p>
+                <p ><span style="color: #EE4D2D;"><strong>筛选器</strong></span>: 改变了原本的上下布局，将筛选器调整至左侧，方便用户操作；在星级筛选栏中新添了每个星级的商品数量，同时也增加了通过商品规格的关键词来快速搜索的选项</p>
+                <p ><span style="color: #EE4D2D;"><strong>快捷回复</strong></span>: 在原本的reply按钮上增加对应图标以增强用户对按钮功能的认知。考虑到一些卖家希望能够及时与给出差评的用户进行沟通，我便加入了快捷聊天的按钮，并用shopee的主题色来进行强调</p>
+
+                <img  style="margin: 5% auto 5% auto; " src="assets/images/shopeeFinalC.png " width="1000 " />
+
+                <p ><span style="color: #EE4D2D;"><strong>查看销量/评价</strong></span>: 在按商品查看的页面中，用户可以用销量和评分作为筛选标准，从而更清楚地发现自己店铺内哪类产品有潜在问题，或是找到爆款的品项。最右侧的收藏按钮可以帮助卖家监控最主要的商品，了解买家意见</p>
+                <p ><span style="color: #EE4D2D;"><strong>评价关键词</strong></span>: 显示某款产品的中，差评价情况，并由系统提取关键词，帮助用户分析原因，制定有效的改进计划</p>
+            </article>
+          
+            <article class="col-md-8 " style="margin-top: 5%;">
+                <h2 style="margin-bottom: 2%; "><strong>总结</strong></h2>
+                <p>我在设计时着重考虑了shopee卖家在使用该系统时最有可能出现的错误和最优先的需求，并在思考如何减少用户学习成本的情况下，对商铺评价界面进行主要功能的改进。
+
+                </p>
+                <p>整体看下来，shopee本身存在着大量的新人卖家，他们都需要适当的引导才能正确高效的使用这些功能点。B端产品设计是个漫长且复杂的过程，每一个模块都需要大量的思考，并结合用户场景，才能设计出最好的用户体验的路径
 
 
-                <h4><b>Onboarding Process</b></h4>
-
-                    <ul style="font-weight: bold; ">
-                        <li>Guided users through app's main functions</li>
-                        <li>Allows them to pre-select their interested topics</li>
-                    </ul>
-                    <img style="margin: auto; padding-top: 2%; padding-bottom: 5%; " src="assets/images/signingif.gif " width="500 " />
-                    <div class="container" style="margin-top: 10%;">
-                        <h4><b>Dashboard</b></h4>
-                        <p style="width: 50%; float: left; ">The dashboard displays the latest statistics (confirmed cases, deaths, recoveries) regarding patients as well as the updates on public facilities, we deliver first-hand information on the reoepning of restaurants and stores. Also,
-                            we will provide the users with the updated travel restrictions on the home screen.
-                        </p>
-                        <img style="width: 45%; float: right; " src="assets/images/homescreen.gif " width="900" />
-                    </div>
-
-                    <div class="container" style="margin-top: 10%;">
-                        <div class="container" style="width: 50%; float: right; margin-top: 5%; ">
-                            <h4><b>News<b></h4>
-                        <p >Based on users' selected topics, the application provides up to date news articles and videos uner the info feed tab. They can also save the article by tapping the "save" icon on the top right.
                 </p>
 
-                    </div>
-                    <img style="width: 45%; float: left; " src="assets/images/news.gif " width="900 " />
 
-                </div>
-               
-                <div class="container" style="margin-top: 10%;">
-                    <h4><b>Map Function</b>
-                            </h4>
-                            <p style="width: 50%; float: left; ">ViFo provides our users with an interactive map screen where they can find the nearest grocery stores, hospitals, testing sites, and pharmacies. In addition, ViFo will display the amount of human activity at those locations
-                                as well as establishment protocols and suppply list.
-                            </p>
-                            <img style="width: 45%; float: right; " src="assets/images/maps.gif " width="900 " />
-                        </div>
-                        <!--
-                        <h4>Profile Screen</h4>
-                        <p style="width: 50%; float: left; margin-top: 5%; ">I also suggested out team to design a profile screen which helps users to access to their saved articles and edit info feed settings. The in-depth interviews I conducted showed that the majority of the users would like to customize
-                            the notification system and interested topics to make sure they only receive high quality news.
-                        </p>
-                        <img style="width: 35%; float: right; " src="assets/images/vifoProfile.png ">-->
-            </article>
+
             </article>
 
 
 
             </div>
-            <div class="container " style="margin-top: 10%;">
-                <div class="row ">
-                    <article class="col-md-8 ">
-                        <h2>Next Step</h2>
-                        <p>We believe that our main application, ViFo, is mostly complete at this point. Our main objective is to get mass feedback from stakeholders to gauge how ViFo will perform for them at their local levels. The feedback poses as leverage
-                            to continue to iteratively improve upon our work.
-
-                        </p>
-                        <p>Our team is still collaborating in order to decide on the best solution for the waitlist feature. One solution we have devised is to have a separate version of the application for the establishments to update their waitlists and
-                            have that reflected in the consumer's application.
-
-
-                        </p>
-
-
-
-                    </article>
-
-                </div>
-            </div>
-
+        
 
         </div>
 
 
 
         <div class="readnext " id="readnext-tb ">
-            <a href="revital.html " style="text-align: center; margin-bottom: 5%; "><button style="-moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 15px; font-family: Signika; font-size: 24px; "><span>Read Next</span></button></a>
-            <h3>Revital App: an app I created to help students deal with of the problem of fatigue.</h3>
+            <a href="covid-cn.html" style="text-align: center; margin-bottom: 5%; "><button style="-moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 15px; font-family: Signika; font-size: 24px; "><span>Read Next</span></button></a>
+            <h3>Vifo mobile app: Integrated platform for covid-19 information</h3>
         </div>
         <!--
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js "></script>
