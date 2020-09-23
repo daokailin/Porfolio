@@ -16,6 +16,7 @@
 
 html {
     scroll-behavior: smooth;
+
 }
 
 .box {
@@ -35,9 +36,7 @@ html {
     background: white;
     font-size: 24px;
     padding: 25px;
-    /*font-family: 'Russo One', sans-serif;
-        font-family: 'Paytone One', sans-serif;
-        font-family: 'Hammersmith One', sans-serif;*/
+
     font-family: 'Enriqueta', 'sans-serif';
     /*font-family: 'Signika';*/
 }
@@ -47,9 +46,7 @@ html {
     background: white;
     font-size: 24px;
     padding: 25px;
-    /*font-family: 'Russo One', sans-serif;
-        font-family: 'Paytone One', sans-serif;
-        font-family: 'Hammersmith One', sans-serif;*/
+ 
     font-family: 'Enriqueta', 'sans-serif';
     /*font-family: 'Signika';*/
 }
@@ -370,7 +367,7 @@ button:hover:after {
     margin: 0;
     width: 100%;
     height: 100vh;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative';
+    font-family: 'Poppins', 'Enriqueta', 'Kreon', 'Signika Negative';
     background: #BBD2C5;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #292E49, #536976, #BBD2C5);
@@ -438,7 +435,7 @@ a,
 }
 
 .con {
-    font: 400 1em/1.5 "Signika";
+    font: 400 1em/1.5 "Poppins", "Signika";
     background: #ffffff;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -466,7 +463,7 @@ a,
 }
 
 .con span {
-    font: 700 4em/1 'Enriqueta', sans-serif;
+    font: 700 4em/1 'Poppins','Enriqueta', sans-serif;
     letter-spacing: 0;
     padding: .25em 0 .325em;
     display: block;
@@ -727,7 +724,7 @@ a {
 
 .aboutpage {
     color: #222222;
-    font-family: 'Enriqueta';
+    font-family: 'Poppins', 'Enriqueta';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -750,3 +747,5 @@ a {
 }
 
 /*social media icon*/
+
+
