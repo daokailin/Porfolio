@@ -17,6 +17,16 @@ b{
     font-weight: bold !important;
 }
 
+@font-face {
+    font-family: 'Alibaba PuHuiTi';
+    src: url('../fonts/Alibaba-PuHuiTi-Bold.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Heavy.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Light.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Medium.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
 /*Solution Ends*/
 
 button {
