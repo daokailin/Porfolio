@@ -1,7 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
-/*social media icons*/
+/*font-face*/
+
+@font-face {
+    font-family: 'Alibaba PuHuiTi';
+    src: url('../fonts/Alibaba-PuHuiTi-Bold.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Heavy.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Light.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Medium.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 .wallpaper {
@@ -761,4 +773,15 @@ a {
 
 /*social media icon*/
 
+/*font-face*/
+@font-face {
+    font-family: 'Alibaba PuHuiTi';
+    src: url('../fonts/Alibaba-PuHuiTi-Bold.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Heavy.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Light.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Medium.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
 
