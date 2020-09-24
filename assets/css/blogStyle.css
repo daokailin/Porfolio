@@ -119,7 +119,7 @@ blockquote {
     font-size: 19px;
     line-height: 50px;
     margin: 0;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'，'STHeiti', 'Microsoft YaHei';
+    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'，'STHeiti',  'Microsoft YaHei';
     font-weight: 700;
     font-style: normal;
 }
@@ -130,7 +130,7 @@ h1 {
     margin: 0px 0px 0.37em 0px;
     font-weight: 400;
     font-style: normal;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'，'STHeiti','Alibaba PuHuiTi', 'Microsoft YaHei';
+    font-family: 'Poppins', 'Enriqueta', 'Kreon', 'Signika Negative','Alibaba PuHuiTi', 'Microsoft YaHei';
     font-weight: 700;
 }
 
@@ -148,7 +148,7 @@ h2{
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0px 0.5em 0px;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'STHeiti',  'Microsoft YaHei';
+    font-family: 'Poppins', 'Enriqueta', 'Kreon', 'Signika Negative', 'Alibaba PuHuiTi',  'Microsoft YaHei';
     font-weight: 400;
     font-style: normal;
 }
@@ -157,7 +157,7 @@ h3 {
     font-size: 28px;
     line-height: 50px;
     margin: 2em 0 0 0;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative'，'STHeiti', 'Microsoft YaHei';
+    font-family: 'Poppins', 'Enriqueta', 'Kreon', 'Signika Negative'，'STHeiti', 'Microsoft YaHei';
     font-weight: 700;
     font-weight: 400;
     font-style: normal;
@@ -167,7 +167,7 @@ h4 {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0px 0.5em 0px;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'STHeiti',  'Microsoft YaHei';
+    font-family: 'Poppins','Enriqueta', 'Kreon', 'Signika Negative', 'Alibaba PuHuiTi', 'STHeiti',  'Microsoft YaHei';
     font-weight: 400;
     font-style: normal;
 }
@@ -195,7 +195,7 @@ h6 {
 
 p {
     margin: 2em 0px;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'Alibaba-PuHuiTi-Regular',' SimSun Regular', 'Microsoft YaHei';
+    font-family: 'Helvetica', 'Enriqueta', 'Kreon', 'Signika Negative', 'Alibaba PuHuiTi',' SimSun Regular', 'Microsoft YaHei';
     font-style: normal;
     font-size: 18px;
     line-height: 36px;
@@ -1054,7 +1054,7 @@ nav.menu-logo.playground-menu>a:hover {
 .codepen li {
     margin: 20px;
     color: black;
-    font: 20pt "Kreon", Signika;
+    font: 20pt 'Poppins',"Kreon", 'Signika';
     font-weight: 700;
     line-height: 1.8;
     text-decoration: none;
