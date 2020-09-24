@@ -19,11 +19,12 @@ b{
 
 @font-face {
     font-family: 'Alibaba PuHuiTi';
-    src: url('../fonts/Alibaba-PuHuiTi-Bold.ttf');
-    src: url('../fonts/Alibaba-PuHuiTi-Heavy.ttf');
-    src: url('../fonts/Alibaba-PuHuiTi-Light.ttf');
-    src: url('../fonts/Alibaba-PuHuiTi-Medium.ttf');
-    src: url('../fonts/Alibaba-PuHuiTi-Regular.ttf');
+    src: url('../fonts/Alibaba-PuHuiTi-Regular.eot');
+    src:local('Alibaba PuHuiTi'), local('Alibaba-PuHuiTi-Regular'),
+        url('../fonts/Alibaba-PuHuiTi-Regular.eot') format('embedded-opentype'),
+        url('../fonts/Alibaba-PuHuiTi-Regular.woff') format('woff'),
+        url('../fonts/Alibaba-PuHuiTi-Regular.ttf') format('truetype');
+
     font-weight: normal;
     font-style: normal;
   }
