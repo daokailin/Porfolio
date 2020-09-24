@@ -198,14 +198,14 @@ h6 {
     font-size: 42px;
     line-height: 50px;
     margin: 0px 0px 0.5em 0px;
-    font-family: 'Enriqueta', 'Kreon', 'Signika Negative', 'STHeiti', 'Microsoft YaHei';
+    font-family: 'Poppins', 'Enriqueta', 'Kreon', 'Signika Negative', 'STHeiti', 'Microsoft YaHei';
     font-weight: 700;
     font-style: normal;
 }
 
 p {
     margin: 2em 0px;
-    font-family: 'Helvetica', 'Enriqueta', 'Kreon', 'Signika Negative', 'Alibaba PuHuiTi',' SimSun Regular', 'Microsoft YaHei';
+    font-family: 'Roboto','Helvetica', 'Enriqueta', 'Kreon', 'Signika Negative', 'Alibaba PuHuiTi',' SimSun Regular', 'Microsoft YaHei';
     font-style: normal;
     font-size: 18px;
     line-height: 36px;
@@ -1064,7 +1064,7 @@ nav.menu-logo.playground-menu>a:hover {
 .codepen li {
     margin: 20px;
     color: black;
-    font: 20pt 'Poppins',"Kreon", 'Signika';
+    font: 20pt 'Poppins',"Kreon", 'Signika' !important;
     font-weight: 700;
     line-height: 1.8;
     text-decoration: none;
