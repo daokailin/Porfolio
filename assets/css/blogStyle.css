@@ -529,14 +529,7 @@ g {
     font-style: normal;
 }
 
-li {
-    font-family: 'Poppins', 'Enriqueta', 'Kreon', 'Signika Negative';
-    font-weight: 300;
-    font-style: normal;
-    margin: 1em 0px;
-    font-size: 18px;
-    line-height: 36px;
-}
+
 
 .menu {
     font-family: "Julius Sans One";
