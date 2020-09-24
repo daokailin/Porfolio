@@ -380,43 +380,6 @@ img.flip {
 
 /*Annotation End*/
 
-h4.testimonial-name {
-    font-size: 1.1em;
-    text-align: center;
-    margin: 0 0 4px 0;
-}
-
-p.testimonial-title {
-    font-style: italic;
-    margin: 0 0 1em 0em;
-    text-align: center;
-    font-size: 1em;
-}
-
-div.testimonial-content {
-    margin: 0 auto 1em auto;
-    text-align: center;
-    padding: 0.5em;
-    background-color: #ffffff;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(204, 204, 204, 1);
-}
-
-p.testimonial-text {
-    text-align: center;
-    color: #666;
-}
-
-p.testimonial-text:last-child {
-    margin-bottom: 0;
-}
-
-p.image-labels {
-    margin: 1.5em 0px 1.563em 0px;
-    text-align: left;
-}
-
 
 
 
@@ -700,7 +663,7 @@ img {
     margin: 20px;
     color: black;
     font: 20pt 'Poppins',"Kreon", 'Signika' !important;
-    font-weight: 700;
+    font-weight: 700 !important;
     line-height: 1.8;
     text-decoration: none;
     text-transform: none;
