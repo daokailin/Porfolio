@@ -28,8 +28,6 @@
     <link rel="stylesheet" href="assets/css/hover.css">
 
     <!--Awwards Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;669;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Enriqueta:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 
 
@@ -43,6 +41,10 @@
     <!--AOS effect-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+     <!--Landing-->
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -84,53 +86,73 @@
 <body id="page1">
     <header>
 
-        <input type="checkbox" id="menu-toggle" />
-        <label id="trigger" for="menu-toggle"></label>
-        <label id="burger" for="menu-toggle"></label>
-        <ul id="menu" class="codepen">
-            <li><a href="#" class="abbt3" style="color: white;">Home</a></li>
-            <li><a href="assets/files/Resume.pdf" class="abbt2" style="color:white">Resume</a></li>
-            <li><a href="#caseStudy" class="abbt1" style="color: white">Projects</a></li>
-            <li><a href="#contact" class="abbt" style="color: white">Contact</a></li>
-        </ul>
-
+        
 
 
 
 
     </header>
-    <div class="bigBeau">
-        <div class="beauty">
-            <div class="con" data-aos="fade-up-right" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">
-                <p>
-                    Design & Code
-                    <span>
-            Daokai Lin is a UX Designer 
-          </span> &mdash; Love Jazz and Boxing &mdash;
-                </p>
 
-            </div>
-
+    <div class="wrapper">
+        <div class="left"></div>
+        <div class="right"></div>
+    
+        <div class="strips">
+          <div class="left-strip"></div>
+          <div class="right-strip"></div>
         </div>
-
-
-        <a class="abunt" href="#caseStudy">
-            <div class="scroll" data-aos="fade-up-right" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">
-                <div class="chevron"></div>
-                <div class="chevron"></div>
-                <div class="chevron"></div>
-                <span class="text" style="margin-bottom: 1%; text-align: center">View Case Studies</span>
-            </div>
-        </a>
-
-
-
-
-    </div>
-
+    
+        <div class="navLanding">
+          <div class="logo">D-LIN<span class="reg">&reg;</span></div>
+    
+          <div class="menuLanding"><i class="fa fa-bars"></i></div>
+    
+          <div class="categories">
+            <ul>
+              <li>Men</li>
+              <li>Women</li>
+              <li>Kids</li>
+            </ul>
+          </div>
+    
+        </div>
+    
+        <div class="media">
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
+    
+    
+        <img class="product-img" src="levi-shirt.png" alt="">
+    
+        <div class="product-text">
+          <h1 class="product-title" style="font-weight: 700;">UX Designer</h1>
+          <p class="product-subtitle">Daokai Is A</p>
+        </div>
+    
+        <div class="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+    
+        <div class="bottomnav">
+          <div class="bottomnav-img"></div>
+    
+          <ul>
+            <li><i class="fa fa-chevron-left"></i></li>
+            <li><i class="fa fa-chevron-right"></i></li>
+          </ul>
+        </div>
+    
+      </div>
 
     <div class="container" id="caseStudy">
-        <div class="row newType " style="font-family: 'Enriqueta';">
+        <div class="row newType " >
             <div class="col-6 " data-aos="fade-up">
                 <a href="shopee.html" class="card_link " style="text-decoration: none; ">
 
@@ -141,13 +163,13 @@
                 <h1 class="mb-5 " style="white-space: nowrap;"><strong class="sstitle">Shopee Redesign</strong></h1>
                 <p class="mb-3 ">Redesigned the shop rating page for Shopee</p>
                 <p class="text-secondary style=font-size: ">Web Design, E-commerce Project</p>
-                <a href="covid.html" style="text-align: justify; "><button style="-moz-border-radius: 10px;
+                <a href="shopee.html" style="text-align: justify; "><button style="-moz-border-radius: 10px;
             -webkit-border-radius: 10px;
             border-radius: 10px; margin-top: 7%;"><span>Learn More</span></button></a>
 
             </div>
         </div>
-        <div class="row newType " style="font-family: 'Enriqueta';">
+        <div class="row newType " >
             <div class="col-6 " data-aos="fade-up">
                 <a href="covid.html " class="card_link " style="text-decoration: none; ">
 
@@ -164,7 +186,7 @@
 
             </div>
         </div>
-        <div class="row newType " style="font-family: 'Enriqueta';">
+        <div class="row newType ">
             <div class="col-6 " data-aos="fade-up">
                 <a href="uiCollection.html " class="card_link " style="text-decoration: none; ">
 
@@ -183,7 +205,7 @@
         </div>
 
 
-        <div class="row newType" style="font-family: 'Enriqueta';">
+        <div class="row newType" >
             <div class="col-6 col-xs-6 " data-aos="fade-up">
                 <a href="DDI.html" class="card_link" style="text-decoration: none;">
 
@@ -200,7 +222,7 @@
             </div>
         </div>
 
-        <div class="row newType " style="font-family: 'Enriqueta';">
+        <div class="row newType ">
             <div class="col-6 " data-aos="fade-up">
                 <a href="triplec.html " class="card_link " style="text-decoration: none; ">
 
@@ -217,7 +239,7 @@
 
             </div>
         </div>
-        <div class="row newType " style="font-family: 'Enriqueta';">
+        <div class="row newType ">
             <div class="col-6 " data-aos="fade-up">
                 <a href="linkedln.html" class="card_link " style="text-decoration: none; ">
 
@@ -262,7 +284,7 @@
         <p class="aboutpage" data-aos="fade-up">Outside of work, I like boxing and go to the jazz concerts.
         </p>
 
-        <a href="assets/files/Resume.pdf " style="text-align: center; margin: 3rem; "><button style="-moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 15px; " data-aos="fade-up"><span>DOWNLOAD RESUME</span></button></a>
+        <a href="assets/files/Resume.pdf " style="text-align: center; margin: 3rem; "><button style="-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; " data-aos="fade-up"><span>DOWNLOAD RESUME</span></button></a>
 
 
         <p class="aboutpage" style="font-weight:600" data-aos="fade-up">Skillsets: </p>
@@ -295,7 +317,7 @@
                 </div>
                 <div style="display: grid; text-align: center;">
 
-                    <h2 style="margin-top: 10%; margin-left: auto; margin-right: auto; width: 80%; font-family: 'Enriqueta';font-weight: 600; ">UX Design Intern at Out and About Communication </h2>
+                    <h2 style="margin-top: 10%; margin-left: auto; margin-right: auto; width: 80%; font-family: 'Poppins';font-weight: 600; ">UX Design Intern at Out and About Communication </h2>
                 </div>
             </div>
 
@@ -308,7 +330,7 @@
                 </div>
                 <div style="display: grid; text-align: center;">
 
-                    <h2 style="margin-top: 10%; margin-left: auto; margin-right: auto; max-width: 80%;font-family: 'Enriqueta'; font-weight: 600;">Product Designer at UC San Diego Triple C</h2>
+                    <h2 style="margin-top: 10%; margin-left: auto; margin-right: auto; max-width: 80%;font-family: 'Poppins'; font-weight: 600;">Product Designer at UC San Diego Triple C</h2>
                 </div>
             </div>
         </div>
@@ -324,7 +346,7 @@
                 <div style="display: grid; text-align: center;">
 
                     <h2 style="margin-top: 10%; margin-left: auto; margin-right: auto;   
-                    max-width: 80%; font-family:  'Enriqueta'; font-weight: 600;">Product Designer at UC San Diego Triple C</h2>
+                    max-width: 80%; font-family:  'Poppins'; font-weight: 600;">Product Designer at UC San Diego Triple C</h2>
                 </div>
             </div>
 
@@ -338,7 +360,7 @@
                 <div style="display: grid; text-align: center;">
 
                     <h2 style="margin-top: 10%; margin-left: auto; margin-right: auto;   
-                    max-width: 80%; font-family:  'Enriqueta'; font-weight: 600;">UX Designer at Netdragon Websoft</h2>
+                    max-width: 80%; font-family:  'Poppins'; font-weight: 600;">UX Designer at Netdragon Websoft</h2>
                 </div>
             </div>
         </div>
@@ -359,7 +381,7 @@
 
 
     <div class="container-fluid" id="contact">
-        <div class="row" style="font-family: 'Enriqueta'">
+        <div class="row" style="font-family: 'Poppins'">
             <div class="col-sm-4 col-xs-6  ">
                 <div style="display: flex; justify-content: center; align-items: center; " data-aos="fade-up ">
 
@@ -393,17 +415,131 @@
 
     </div>
     
-    <ul class="social-networks square spin-icon">
-        <li><a href="https://www.linkedin.com/" class="icon-linkedin">LinkedIn</a></li>
-     
-        <li><a href="https://github.com" class="icon-github">GitHub</a></li>
-     
-        <li><a href="https://vimeo.com" class="icon-vimeo">Vimeo</a></li>
-      </ul>
 
 
 
     </div>
+    <script type="text/javascript">
+
+        TweenMax.from(".left", 1.6, {
+          delay: 0.6,
+          width: 0,
+          ease: Expo.easeInOut
+        })
+    
+        TweenMax.from(".right", 1.6, {
+          delay: 0.6,
+          width: 0,
+          ease: Expo.easeInOut
+        })
+    
+        TweenMax.from(".logo", 1, {
+          delay: 1,
+          opacity: 0,
+          x: -20,
+          ease: Expo.easeInOut
+        })
+    
+        TweenMax.from(".menu", 1, {
+          delay: 1.2,
+          opacity: 0,
+          x: -20,
+          ease: Expo.easeInOut
+        });
+    
+        TweenMax.from(".categories", 1, {
+          delay: 1.4,
+          opacity: 0,
+          x: -150,
+          ease: Expo.easeInOut
+        });
+    
+        TweenMax.from(".search", .8, {
+          delay: 1.6,
+          opacity: 0,
+          x: -20,
+          ease: Expo.easeInOut
+        });
+    
+        TweenMax.from(".bag", 1, {
+          delay: 1.6,
+          opacity: 0,
+          x: -20,
+          ease: Expo.easeInOut
+        });
+    
+        TweenMax.staggerFrom(".media ul li", 1, {
+          delay: 2,
+          opacity: 0,
+          x: -20,
+          ease: Power3.easeInOut
+        }, 0.08);
+    
+        TweenMax.from(".size", 1, {
+          delay: 1.8,
+          opacity: 0,
+          x: -20,
+          ease: Expo.easeInOut
+        });
+    
+        TweenMax.staggerFrom(".size ul li", .3, {
+          delay: 2,
+          opacity: 0,
+          y: 20,
+          ease: Power3.easeInOut
+        }, 0.08);
+    
+        TweenMax.staggerFrom(".dot", 1, {
+          delay: 2.4,
+          opacity: 0,
+          x: 20,
+          ease: Power3.easeInOut
+        }, 0.08);
+    
+        TweenMax.from(".bottomnav", 1, {
+          delay: 2.4,
+          opacity: 0,
+          x: -20,
+          ease: Expo.easeInOut
+        });
+    
+        TweenMax.from(".bottomnav ul li:first-child", .5, {
+          delay: 2.4,
+          opacity: 0,
+          x: -20,
+          ease: Expo.easeInOut
+        });
+    
+        TweenMax.from(".bottomnav ul li:last-child", .6, {
+          delay: 2.4,
+          opacity: 0,
+          x: -20,
+          ease: Expo.easeInOut
+        });
+    
+        TweenMax.from(".product-img", 3, {
+          delay: 2,
+          opacity: 0,
+          y: 20,
+          ease: Expo.easeInOut
+        });
+    
+        TweenMax.from(".product-title", 3, {
+          delay: 2.2,
+          opacity: 0,
+          y: 50,
+          ease: Expo.easeInOut
+        });
+    
+        TweenMax.from(".product-subtitle", 3, {
+          delay: 2.4,
+          opacity: 0,
+          y: 50,
+          ease: Expo.easeInOut
+        });
+    
+    
+      </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
     <script>
         AOS.init();

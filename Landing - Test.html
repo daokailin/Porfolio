@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Global site tag (gtag.js) - Google Analytics 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154912123-1"></script>
@@ -20,13 +20,13 @@
 
     <!--font awesome
     <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>-->
-
-  <!--landing-->
-    <link rel="stylesheet" href="assets/css/landing2.css">
+ 
+    <!--landing-->
+   <link rel="stylesheet" href="assets/css/landing2.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
-
     <link rel="stylesheet" href="assets/css/buttonStyle.css">
+   
     <link rel="stylesheet" href="assets/css/hover.css">
 
     <!--Awwards Font-->
@@ -43,11 +43,17 @@
     <!--AOS effect-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+     <!--Landing-->
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Carter+One|Creepster|Hammersmith+One|Kreon|Signika|Paytone+One|Russo+One|Sigmar+One|Signika+Negative&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
 
     <title>Daokai Lin-Porfolio</title>
    
@@ -56,7 +62,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script href="assets/js/bootstrap-cdn.js"></script>
     
+    <!--
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    -->
+    <!--
+    <script>
+        (function($) {
+            $('.js-nav-menu-toggle').on('click', function() {
+                $(this).parents('.navigation-menu').toggleClass('navigation-menu--open');
+            });
 
+            $('html').on('click', function(e) {
+                if (!$(e.target).closest('.js-nav-menu').length &&
+                    ($('.js-nav-menu').hasClass('navigation-menu--open'))) {
+                    $('.js-nav-menu').removeClass('navigation-menu--open');
+                }
+            });
+        })(jQuery);
+    </script>-->
 
 
 
@@ -64,49 +87,16 @@
 
 <body id="page1">
     <header>
-<!--First nav bar version-
-        <input type="checkbox" id="menu-toggle" />
-        <label id="trigger" for="menu-toggle"></label>
-        <label id="burger" for="menu-toggle"></label>
-        <ul id="menu" class="codepen">
-            <li><a href="#" class="abbt3" style="color: white;">Home</a></li>
-            <li><a href="assets/files/Resume.pdf" class="abbt2" style="color:white">Resume</a></li>
-            <li><a href="#caseStudy" class="abbt1" style="color: white">Projects</a></li>
-            <li><a href="#contact" class="abbt" style="color: white">Contact</a></li>
-        </ul>
-    -->
+
+        
 
 
 
 
     </header>
+
+
     
-   
-    <!--First background version <div class="bigBeau">
-        <div class="beauty">
-            <div class="con" data-aos="fade-up-right" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">
-                <p>
-                    Design & Code
-                    <span>
-            Daokai Lin is a UX Designer 
-          </span> &mdash; Love Jazz and Boxing &mdash;
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <a class="abunt" href="#caseStudy">
-            <div class="scroll" data-aos="fade-up-right" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">
-                <div class="chevron"></div>
-                <div class="chevron"></div>
-                <div class="chevron"></div>
-                <span class="text" style="margin-bottom: 1%; text-align: center">View Case Studies</span>
-            </div>
-        </a>
-    </div>-->
-
     <div class="landing">
         
         <header class="l-header">
@@ -120,11 +110,10 @@
                         <ion-icon name="close-outline" class="nav__close-icon" id="nav-close"></ion-icon>
                     </div>
                     <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
                         <li class="nav__item"><a href="#selfIntro" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#caseStudy" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                        <li class="nav__item"><a href="#intern" class="nav__link">Experience</a></li>
-
                     </ul>
                 </div>
 
@@ -154,13 +143,14 @@
 
 
                <!-- <a href="#" class="home__button">Projects<ion-icon name="arrow-downward-outline" class="home__button-icon"></ion-icon></a>-->
-               <a href="#caseStudy" class="home__button">Projects<ion-icon name="arrow-down" class="home__button-icon"></ion-icon>
+               <a href="#caseStudy" class="home__button">Projects<ion-icon name="arrow-down" ></ion-icon>
 
 
                </a>
             </div>
         </main>
     </div>
+
 
 
     <div class="container" id="caseStudy">
@@ -276,7 +266,7 @@
         <h1 class="test" data-z-index="2" style="font-family: 'Kreon';"><span style="color: #ee5100">A</span>BOUT</h1>
     </div>-->
     <div class="container">
-        <h1 style="text-align:center;white-space:pre-wrap; font-size: calc(6.6vw + 1rem);" data-aos="fade-up"><span style="color:  #2594FF">A</span>bout.</h1>
+        <h1 style="text-align:center;white-space:pre-wrap; font-size: calc(6.6vw + 1rem);" data-aos="fade-up"><span style="color: #2594FF">A</span>bout.</h1>
     </div>
 
     <div><span style="display: table; clear: both; "></span></div>
@@ -313,12 +303,12 @@
     </div>-->
 
     <div class="container">
-        <h1 style="text-align:center;white-space:pre-wrap; font-size: calc(6.6vw + 1rem); " data-aos="fade-up"><span style="color:  #2594FF">E</span>xperience.</h1>
+        <h1 style="text-align:center;white-space:pre-wrap; font-size: calc(6.6vw + 1rem); " data-aos="fade-up"><span style="color: #2594FF">E</span>xperience.</h1>
     </div>
     <div><span style="display: table; clear: both; "></span></div>
 
 
-    <div class="container" data-aos="fade-up" id="intern">
+    <div class="container" data-aos="fade-up">
         <div class="row">
 
             <div class="col-6">
@@ -385,7 +375,7 @@
         <h1 class="test" data-z-index="2" style="font-family: 'Kreon';"><span style="color: #ee5100">C</span>ONTACT</h1>
     </div>-->
     <div class="container">
-        <h1 style="text-align:center;white-space:pre-wrap; font-size: calc(6.6vw + 1rem); " data-aos="fade-up"><span style="color:  #2594FF">C</span>ontact.</h1>
+        <h1 style="text-align:center;white-space:pre-wrap; font-size: calc(6.6vw + 1rem); " data-aos="fade-up"><span style="color: #2594FF">C</span>ontact.</h1>
     </div>
 
     <div><span style="display: table; clear: both; "></span></div>
@@ -426,51 +416,55 @@
         </div>
 
     </div>
+    
+
+
+
     </div>
+  
 
-     <!-- MAIN LADNING-->
-     <script src="assets/js/main1.js"></script>
+      <!-- MAIN -->
+      <script src="assets/js/main1.js"></script>
 
-     <!-- GSAP -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+      <!-- GSAP -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 
-     <!-- THREE JS -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"
-      integrity="sha256-3mBEX8I0uMLF7+AUjJeTCelosuorzYpqwBMBPDTyQqY=" crossorigin="anonymous"></script>
+      <!-- THREE JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"
+       integrity="sha256-3mBEX8I0uMLF7+AUjJeTCelosuorzYpqwBMBPDTyQqY=" crossorigin="anonymous"></script>
 
-     <!-- HOVER-EFFECT JS -->
-     <script src="assets/js/hover-effect.umd.js"></script>
-     
-      <!-- ICONOS -->
-     <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
- 
-     <script>
-         
-         /*new hoverEffect({
-             parent: document.querySelector('.home__img'),
-             intensity: 0.3,
-             image1: 'assets/images/model.jpg',
-             image2: 'assets/images/img2.jpg',
-             displacementImage: 'assets/img/diss.png',
-             imagesRatio: 450 / 300
-         })
+      <!-- HOVER-EFFECT JS -->
+      <script src="assets/js/hover-effect.umd.js"></script>
+      
+       <!-- ICONOS -->
+      <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+  
+      <script>
+          new hoverEffect({
+              parent: document.querySelector('.home__img'),
+              intensity: 0.3,
+              image1: 'assets/images/model.jpg',
+              image2: 'assets/images/img2.jpg',
+              displacementImage: 'assets/img/diss.png',
+              imagesRatio: 450 / 300
+          })
 
-         /* NAV, TITLE Y IMG y*/
-         gsap.from('.nav', {opacity: 0, duration: 1, delay:1, y: -30})
-         gsap.from('.home__title', {opacity: 0, duration: 1.2, delay:1.2, y: -30})
-         gsap.from('.home__img', {opacity: 0, duration: 1.3, delay:1.3, y: -50})
+          /* NAV, TITLE Y IMG y*/
+          gsap.from('.nav', {opacity: 0, duration: 1, delay:1, y: -30})
+          gsap.from('.home__title', {opacity: 0, duration: 1.2, delay:1.2, y: -30})
+          gsap.from('.home__img', {opacity: 0, duration: 1.3, delay:1.3, y: -50})
 
-         /*SOCIAL, SUBTITLE Y BUTTON*/
-         gsap.from('.home__social', {opacity: 0, duration: 1, delay:1.5, y: 50})
-         gsap.from('.home__subtitle', {opacity: 0, duration: 1, delay: 1.8, y: 50})
-         gsap.from('.home__button', {opacity: 0, duration: 1, delay:2, y: 50})
-     </script>
+          /*SOCIAL, SUBTITLE Y BUTTON*/
+          gsap.from('.home__social', {opacity: 0, duration: 1, delay:1.5, y: 50})
+          gsap.from('.home__subtitle', {opacity: 0, duration: 1, delay: 1.8, y: 50})
+          gsap.from('.home__button', {opacity: 0, duration: 1, delay:2, y: 50})
+      </script>
+
+
     <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
     <script>
         AOS.init();
     </script>
-         <!-- MAIN LADNING-->
-
 
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4 ">
