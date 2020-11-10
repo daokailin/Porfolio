@@ -187,7 +187,9 @@ img {
   position: absolute;
   top: 4%;
   left: 5%;
-  font-size: var(--big-font-size);
+  /*font-size: var(--big-font-size);*/
+  font-size: 85px;
+
   font-weight: 900;
   z-index: var(--z-fixed);
 }
@@ -270,7 +272,9 @@ img {
         grid-template-columns: 4fr 1fr;
   }
   .home__title {
-    top: 16%;
+    /*top: 16%;*/
+    top: 20%;
+
     left: 23%;
   }
   .home__img {
