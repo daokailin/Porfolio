@@ -73,7 +73,7 @@
     <div class="container" >
             <article class="col-md-8" style="margin-bottom: 0;">
                 <h1 style="font-size: 50px;"><b>Shopee卖家中心设计</b></h1>
-                <p class="intro">B端系统界面设计</p>
+                <p style="font-family: Poppins;">B端系统界面设计</p>
             </article>
     </div>
 
@@ -123,7 +123,7 @@
 
                 <p>Shopee(虾皮购物)是东南亚增长最快的电商平台，其业务范围包括了新加坡，马来西亚，台湾等地区。shopee卖家后台中心便为卖家起到了管理订单，查看店铺产品销售和店铺表现的关键数据等作用。我此次的任务便是针对商店评价(Shop Rating)这一界面进行分析与优化。</p>        
              <article class="col-md-12 image-margin-refine-top ">
-                <img class="browser-screenshot" style="margin: 5% auto 5% auto; " src="assets/images/shopeeExisted.png " width="900 " />
+                <img style="margin: 5% auto 5% auto; " src="assets/images/shopeeExisted.png " width="900 " />
             </article> 
               </article>
             </div>
@@ -137,16 +137,20 @@
                 <p>
                     商店评价是shopee卖家端后台管理系统的重要一环，消费者如今都十分依赖其他买家的评价来做出购买决策，也是保证双方交易的信任的基础。若是需要对该功能进行分析与重新设计，便首先需要了解各方对于评价系统的要求：
                 </p>
-            <ul style="font-family: 'Alibaba PuHuiTi'">
+                <p>1. 买家：将用户对商品质量，店家服务，物流等信息的感受反映出来，为其他人提供参考信息</p>
+                <p style="color: #EE4D2D"><b>2. 卖家：了解用户对商品的感想与使用情况，展现商品卖点，提高用户购买率，为店铺打造口碑及评价体系，更好地对资源进行管理等 </b></p>
+                
+          <!---
+                <ul style="font-family: 'Alibaba PuHuiTi'">
                 <li>买家：将用户对商品质量，店家服务，物流等信息的感受反映出来，为其他人提供参考信息</li>
                 <br />
                 <li style="color: #EE4D2D"><b>卖家：了解用户对商品的感想与使用情况，展现商品卖点，提高用户购买率，为店铺打造口碑及评价体系，更好地对资源进行管理等</b></li>
                 <br />
                 <li>平台：为买卖双方构建一个高效沟通的渠道，维持交易的透明性和公平性，提升商品流通的效率</li>
-            </ul>
-            <p>
-                因此，我将从这里出发，深入分析shopee现在的商店评价界面的架构，优缺点，可改进之处，并进行重新设计。
-            </p>
+            </ul>-->
+           
+           
+           
             </article>
             <article class="col-md-8 ">
                 <h4><strong>信息架构&功能</strong></h4>
@@ -157,7 +161,7 @@
             <br />
             <p>在该页面的主要使用场景中，顶部信息栏包含了当前的商店评价等级。卖家一般会先通过筛选器来定位自己想要查看的某类商品，再通过tab部分对不同星级的商品评价进行分类，最后查看底部列表页的信息。必要时会通过回复功能对某些买家的评论或需求进行回复。以满足查看优质商品特点，了解低评价商品的问题，以及及时回复买家等需求</p>
             <br />
-            <img class="browser-screenshot"style="margin: 3% auto 3% auto;" src="assets/images/jiemian1.png" width="800"/>
+            <img style="margin: 3% auto 3% auto;" src="assets/images/jiemian1.png" width="800"/>
             <br />
             </article>
 
@@ -187,7 +191,7 @@
             <article class="col-md-8 ">
                 <h4><strong>用户痛点&设计理念</strong></h4>
                    
-                        <img class="browser-screenshot " style="margin: 3% auto 3% auto;" src="assets/images/Empathy Map.png " width="800 " />
+                        <img style="margin: 3% auto 3% auto;" src="assets/images/Empathy Map.png " width="800 " />
                         <p>对于这些卖家用户来说，如何通过管理商品收到的评价来提升买家的满意度和增加店铺的好评率是他们最为主要的问题。<span style="color: #EE4D2D;"><strong>现有的交互界面无法有效的帮助他们去定位中，差的商品评价，寻找高评分的畅销产品，和提取差评的关键信息</strong></span></p>
 
                         <p>B端产品的特性普遍是追求不同用户与平台间的高效沟通，对信息与资源进行有效管理，以及尽量满足不同场景及不同用户的使用习惯与要求。根据我对商店评价页面的分析，以及对这6名电商卖家所进行的用户访谈，我总结出了以下几个主要的设计思路，并从这些要素出发来设计初步的线框图。最后再通过基本的用户测试来对低保真模型进行版本迭代，以输出最终的设计方案</p>
@@ -268,8 +272,8 @@
 
 
         <div class="readnext " id="readnext-tb ">
-            <a href="Edmodo-cn.html" style="text-align: center; margin-bottom: 5%; "><button style="-moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 15px; font-family: Signika; font-size: 24px; "><span>Read Next</span></button></a>
-            <h3>101教育PPT: SAAS软件界面设计</h3>
+            <a href="Edmodo-cn.html" style="text-align: center; margin-bottom: 5%; "><button style="-moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 15px; font-family: Poppins, Signika; font-size: 24px; "><span>Read Next</span></button></a>
+            <h3 style="font-family: Poppins;">101教育PPT: SAAS软件界面设计</h3>
         </div>
         <!--
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js "></script>
