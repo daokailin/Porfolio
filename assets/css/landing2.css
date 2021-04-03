@@ -81,7 +81,7 @@ img {
 .l-header {
   width: 100%;
   position: absolute;
-  top: 0;
+  top: 10;
   left: 0;
   z-index: var(--z-modal);
   background-color: var(--first-color);
@@ -275,12 +275,12 @@ img {
     /*top: 16%;*/
     top: 20%;
 
-    left: 23%;
+    left: 15%;
   }
   .home__img {
     width: 359px;
     height: 539px;
-    top: 18%;
+    top: 22%;
     left: 43%;
   }
   .home__social {
